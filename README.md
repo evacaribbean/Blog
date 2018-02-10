@@ -4,8 +4,8 @@ Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolor
 
 <br> 
 
-![GitHub Logo](/images/koivowatercolor.jpg)
+![Koivo](/images/koivowatercolor.jpg)
 
-<br><br>
+<br>
 
 ( I just test now how the font will look, I will come back later. Maybe it'll take a while, but I'll be back 😊 ) 
