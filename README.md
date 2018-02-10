@@ -8,4 +8,4 @@ Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolor
 
 <br>
 
-( I just test now how the font will look, I will come back later. Maybe it'll take a while, but I'll be back 😊 ) 
+( I just test now how font and images will look, I will come back later on. Maybe it'll take a while, but I'll be back 😊 ) 
