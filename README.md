@@ -1,7 +1,7 @@
 # Blog
 
 
-> Just light articles and thougts
+> Just light articles and thoughts on Java and frontend, with the latest post closest to below. 
 
 <br>
 <br>
