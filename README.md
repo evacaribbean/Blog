@@ -1,8 +1,8 @@
 # Blog
 
-```
-Just light articles and thougts
-```
+
+> Just light articles and thougts
+
 
 
 
