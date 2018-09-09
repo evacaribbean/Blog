@@ -7,9 +7,9 @@
 <br>
 
 - ...
-- Color and Size in Geometrics 
+- [Color and Size in Geometrics](https://github.com/evacaribbean/Blog#color-and-size-in-geometrics) 
 - [The Java Adventure](https://github.com/evacaribbean/Blog#the-java-adventure)
-- Ipsum aquia vitae
+- [Ipsum aquia vitae](https://github.com/evacaribbean/Blog#ipsum-aquia-vitae)
 
 <br>
 <br>
