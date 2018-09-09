@@ -13,9 +13,24 @@
 <br>
 <br>
 
-## Title
+## Color and Size in Geometrics
+ 
+text ... 
 
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia.
+<br>
+<br>
+
+## The Java Adventure
+
+Real real gone - such great time! I thought first: "No matter what, uphills both way, snow and snow again, dog slow ... on and on and on, my my...". 
+
+But nop! It is with such delight I´ve been reading books, enjoy Internet videos, teaching myself, and participate in Java courses. It is great!
+
+The subject seemed to be so fun. So interesting! 
+
+Diving down, not sure if it'll be what I hoped for (even if it looked exciting). It soon turned out to be, just great time - Yeess! I was lucky. 
+
+Then I knew, this is it. 
 
 <br>
 <br>
