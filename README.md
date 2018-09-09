@@ -8,7 +8,7 @@
 
 - ...
 - Color and Size in Geometrics 
-- [The Java Adventure] (https://github.com/evacaribbean/Blog#the-java-adventure) 
+- [The Java Adventure](https://github.com/evacaribbean/Blog#the-java-adventure)
 - Ipsum aquia vitae
 
 <br>
