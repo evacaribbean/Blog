@@ -7,7 +7,8 @@
 <br>
 
 - ...
-- ...
+- Color and Size in Geometrics 
+- The Java Adventure
 - Ipsum aquia vitae
 
 <br>
