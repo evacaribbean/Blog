@@ -9,18 +9,18 @@
 - ...
 - [Color and Size in Geometrics](https://github.com/evacaribbean/Blog#color-and-size-in-geometrics) 
 - [The Java Adventure](https://github.com/evacaribbean/Blog#the-java-adventure)
-- [Ipsum aquia vitae](https://github.com/evacaribbean/Blog#ipsum-aquia-vitae)
+- [ipsum aquia vitae](https://github.com/evacaribbean/Blog#ipsum-aquia-vitae)
 
 <br>
 <br>
 
 ## Color and Size in Geometrics
  
-This geometrics program is coded in one source file. Without zillions of classes, though with many enought, it could have been good to divide them into a few more source files. But here I wanted to focus on constructors, public and not public classes, and inheritance (extends).
+This geometrics program is coded in one source file. Without zillions of classes though with many enought, it could have been good to divide them into a few more source files. But here I wanted to focus on constructors, public and not public classes, and inheritance (extends).
 
-I make up a task saying:
+I make up a task, saying:
 
-Create a program that changes the colors and sizes of its geometrical figures. Depending on each shape's area or volume.        
+<em>Create a program that changes the colors and sizes of its geometrical figures. Depending on each shape's area or volume.</em>      
 
 ...
 
@@ -38,7 +38,7 @@ Then I knew, this is it. This is the subject.
 <br>
 <br>
 
-## Ipsum aquia vitae
+## ipsum aquia vitae
 
 Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
 
