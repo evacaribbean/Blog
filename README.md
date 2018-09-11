@@ -22,6 +22,7 @@ I make up a task, saying:
 
 <em>Create a program that changes the colors and sizes of its geometrical figures. Depending on each shape's area or volume.</em>      
 
+<br>
 
 ![geometrics program](/images/overview.jpg)
 ...
