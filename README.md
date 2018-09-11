@@ -16,12 +16,15 @@
 
 ## Color and Size in Geometrics
  
-This geometrics program is coded in one source file. Without zillions of classes though with many enought, it could have been good to divide them into a few more source files. But here I wanted to focus on constructors, public and not public classes, and inheritance (extends).
+This geometrics program is coded in one source file. Without zillions of classes though with many enought, it could have been good to divide them into a few more source files. But here I wanted to focus on constructors, public and not public classes, inheritance (extends) and overloading.
 
 I make up a task, saying:
 
 <em>Create a program that changes the colors and sizes of its geometrical figures. Depending on each shape's area or volume.</em>      
 
+...
+
+![geometrics program](/images/overview.jpg)
 ...
 
 <br>
