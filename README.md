@@ -28,7 +28,7 @@ I make up a task, saying:
 
 <br>
 
-The solution above consists of six classes. Where the main enty point in the picture is unfolded.
+The solution above consists of six classes. Where the main method entry point in the above picture is unfolded.
 
 ...
 
