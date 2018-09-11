@@ -25,7 +25,10 @@ I make up a task, saying:
 <br>
 
 ![geometrics program](/images/overview.jpg)
-...
+
+<br>
+
+... consists of six classes.  ...
 
 <br>
 <br>
