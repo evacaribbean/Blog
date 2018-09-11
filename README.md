@@ -14,26 +14,28 @@
 <br>
 <br>
 
+
 ## Color and Size in Geometrics
  
 This geometrics program is coded in one source file. Without zillions of classes though with many enought, it could have been good to divide them into a few more source files. But here I wanted to focus on constructors, public and not public classes, inheritance (extends) and overloading.
 
 I make up a task, saying:
 
-<em>Create a program that changes the colors and sizes of its geometrical figures. Depending on each shape's area or volume.</em>      
+<em>Create a console program that changes the colors and sizes of its geometrical figures. Depending on each shape's area or volume.</em>      
 
 <br>
 
-![geometrics program](/images/overview.jpg)
+![geometrics overview](/images/geometricsoverview.jpg)
 
 <br>
 
 The solution above consists of six classes. Where the main method entry point in the above picture is unfolded.
 
-...
+I find it nice to have as little as possible written in the entry point. So I often start here, and work may way back into the classes and its members. 
 
 <br>
 <br>
+
 
 ## The Java Adventure
 
@@ -45,6 +47,7 @@ Then I knew, this is it. This is the subject.
 
 <br>
 <br>
+
 
 ## ipsum aquia vitae
 
