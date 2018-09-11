@@ -28,7 +28,9 @@ I make up a task, saying:
 
 <br>
 
-... consists of six classes.  ...
+The solution above consists of six classes. Where the main enty point in the picture is unfolded.
+
+...
 
 <br>
 <br>
