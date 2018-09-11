@@ -31,9 +31,9 @@ I make up a task, saying:
 
 The solution above consists of six classes. Where the main method entry point in the above picture is unfolded.
 
-I find it nice to have as little as possible written in the entry point. So I often start here, and work may way back into the classes and its members. In this way the overview automatically has to present itself first. And next come all the "instrument parts" to the "piece".
+I find it nice to have as little as possible written in the entry point. So I often start here, and work may way back into the classes and its members. In this way the overview automatically has to present itself first, and next come all the "instrument parts" to the "piece".
 
-To try the console program out, you just have to change the values in the instantiated objects.  
+To try the console program out, just change the values in the instantiated objects.  
 
 <br>
 
