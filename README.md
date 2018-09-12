@@ -41,7 +41,21 @@ To try the console program out, just change the values in the instantiated objec
 
 <br>
 
-...
+### inheritance (extends)
+
+text...
+
+<br>
+
+### contructors
+
+text...
+
+<br>
+
+### title
+
+text...
 
 <br>
 <br>
