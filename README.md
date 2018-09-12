@@ -31,7 +31,7 @@ I make up a task, saying:
 
 The solution above consists of six classes. Where the *main method entry point* is unfolded.
 
-I find it nice to have as little as possible written in the entry point. So I often start here, and work may way back into the classes and its members. In this way the overview automatically has to present itself first. And with this, the design which will give the answers on how to code also naturally makes it easy on how to coninue coding. From the overwiew to the "details" (all the "instrument parts" in the "piece").
+I find it nice to have as little as possible written in the entry point. So I often start here, and work may way back into the classes and its members. In this way the overview automatically has to present itself first. And with this, the design which will give the answers on how to code also naturally makes it easy on how to coninue coding. From the overwiew to the "details" (the "instrument parts" in the "piece").
 
 To try the console program out, just change the values in the instantiated objects.  
 
