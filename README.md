@@ -1,7 +1,7 @@
 # Blog
 
 
-> Just light articles and thoughts on Java and frontend, with the latest post closest to below. 
+> Light articles and thoughts on Java and frontend, with the latest post closest to below. 
 
 <br>
 <br>
@@ -29,9 +29,9 @@ I make up a task, saying:
 
 <br>
 
-The solution above consists of six classes. Where the main method entry point in the above picture is unfolded.
+The solution above consists of six classes. Where the main method entry point is unfolded.
 
-I find it nice to have as little as possible written in the entry point. So I often start here, and work may way back into the classes and its members. In this way the overview automatically has to present itself first, and next come all the "instrument parts" to the "piece".
+I find it nice to have as little as possible written in the entry point. So I often start here, and work may way back into the classes and its members. In this way the overview automatically has to present itself first. And with it, the design which then will give all the "instrument parts" to the "piece".
 
 To try the console program out, just change the values in the instantiated objects.  
 
@@ -49,7 +49,7 @@ To try the console program out, just change the values in the instantiated objec
 
 ## The Java Adventure
 
-Real real gone - such great time! I thought first: "No matter what, uphill both ways, snow and snow again, dog slow ... on and on and on, my my...". 
+Real real gone - such great time! I first thought: "No matter what, uphill both ways, snow and snow again, dog slow ... on and on and on, my my...". 
 
 But nop! It is with such delight I´ve been reading books, enjoy Internet videos, teaching myself, and participate in Java courses. It is great! The subject seemed to be so fun. So interesting! Diving down, not sure if it'll be what I hoped for (even if it looked exciting). It soon turned out to be, just great time - Yeess! I was lucky. 
 
