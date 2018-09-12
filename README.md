@@ -41,6 +41,7 @@ To try the console program out, just change the values in the instantiated objec
 ![geometrics instantiated](/images/geometricsinstantiated.jpg)
 
 <br>
+<br>
 
 ### inheritance (extends)
 
