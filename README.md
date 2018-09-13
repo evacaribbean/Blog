@@ -45,7 +45,8 @@ To try the console program out, just change the values in the instantiated objec
 
 ### entry point
 
-Starting with the overview, I've found it good to always begin coding and "set up" by the main method entry point. 
+Starting with the overview, I've found it good to always begin coding and "set up" by the main method entry point.
+ 
 
 ``` javascript
 public class G {
