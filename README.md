@@ -51,9 +51,8 @@ Starting with the overview, I've found it good to always begin coding and "set u
 - Should there be any direct values in the class?
 - Should the class have just one method and constructor, or many?
 - Should I use as few members as possible in the class?
-
 - Should the program have few or many classes?
-
+<br>
 ``` javascript
 public class G {
 	public static void main(String[] args) {
