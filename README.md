@@ -45,8 +45,7 @@ To try the console program out, just change the values in the instantiated objec
 
 ### entry point
 
-Starting with the overview, I've found it good to always begin coding and "set up" by the main method entry point.
- 
+Starting with the overview, I've found it good to always begin coding and "set up" by the main method entry point. 
 
 ``` javascript
 public class G {
@@ -63,7 +62,7 @@ public class G {
 	}
 } 
 ``` 
-klon
+With this approach the code design easily forms and answers my questions on how the program should be written. 
 
 <br>
 
