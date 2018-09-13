@@ -43,6 +43,12 @@ To try the console program out, just change the values in the instantiated objec
 <br>
 <br>
 
+### entry point
+
+text...
+
+<br>
+
 ### inheritance (extends)
 
 text...
@@ -55,7 +61,7 @@ text...
 
 <br>
 
-### title
+### java access specifiers
 
 text...
 
