@@ -45,7 +45,14 @@ To try the console program out, just change the values in the instantiated objec
 
 ### entry point
 
-Starting with the overview, I've found it good to always begin coding and "set up" by the main method entry point. 
+Starting with the overview, I've found it good to always begin coding and "set up" by the main method entry point. With this approach the code design easily forms and answers my questions on how the program should be written. 
+
+- Should the class have printlns?
+- Should there be any direct values in the class?
+- Should the class have just one method and constructor, or many?
+- Should I use as few members as possible in the class?
+
+- Should the program have few or many classes?
 
 ``` javascript
 public class G {
@@ -62,7 +69,8 @@ public class G {
 	}
 } 
 ``` 
-With this approach the code design easily forms and answers my questions on how the program should be written. 
+
+kiloi  
 
 <br>
 
