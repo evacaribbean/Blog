@@ -32,7 +32,7 @@ I make up a task, saying:
 
 The solution above consists of six classes. Where the *main method entry point* is unfolded.
 
-I find it nice to have as little as possible written in the entry point. So I often start here, and work may way back into the classes and its members. In this way the overview automatically has to present itself first. And with this, the design which will give the answers on how to code also naturally makes it easy on how to coninue coding. From overwiew to "details".
+I find it nice to have as little as possible written in the entry point. So I often start here, and work may way back into the classes and its members. In this way the overview automatically has to present itself first. And with this, the design which will give the answers on how to code also naturally makes it easy on how to continue. From overwiew to "details".
 
 To try the console program out, just change the values in the instantiated objects.  
 
@@ -45,7 +45,24 @@ To try the console program out, just change the values in the instantiated objec
 
 ### entry point
 
-text...
+Starting with the overview, I've found it good to always begin coding and "set up" by the main method entry point. 
+
+``` javascript
+public class G {
+	public static void main(String[] args) {
+		
+		Circle cir = new Circle(1, 21);	 
+		Cube cub = new Cube(5, 18, 64);		 		
+		Square squ = new Square(12, 4);		 	
+		Triangle tri = new Triangle(2, 1);	 
+
+		cir.info();		
+	 	cir.cirColorInfo(); cub.cubColorInfo(); 
+	 	squ.squColorInfo(); tri.triColorInfo(); 		
+	}
+} 
+``` 
+klon
 
 <br>
 
