@@ -71,9 +71,7 @@ public class G {
 	}
 } 
 ``` 
-
-kiloi  
-
+ 
 <br>
 
 ### inheritance (extends)
