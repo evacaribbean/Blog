@@ -51,7 +51,7 @@ Starting with the overview, I've found it good to always begin coding and "set u
 
 - Should the class have printlns?
 - Should there be any direct values in the class?
-- Should the class have just one method and constructor, or many?
+- Should the class present just one method and constructor, or many?
 - Should I use as few members as possible in the class?
 - Should the program have few or many classes?
 <br>
@@ -89,6 +89,10 @@ text...
 ### java access specifiers
 
 text...
+
+<br>
+
+![geometrics console](/images/geometricsconsole.jpg)
 
 <br>
 <br>
