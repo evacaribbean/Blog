@@ -13,7 +13,7 @@
 
 <br>
 <br>
-<br>
+<br> 
 
 
 ## Color and Size in Geometrics
@@ -97,6 +97,7 @@ text...
 <br>
 <br>
 <br>
+<br>
 
 
 ## The Java Adventure
@@ -107,6 +108,7 @@ But nop! It is with such delight I´ve been reading books, enjoy Internet videos
 
 Then I knew, this is it. This is the subject. 
 
+<br>
 <br>
 <br>
 <br>
