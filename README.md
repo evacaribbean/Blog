@@ -77,11 +77,13 @@ public class G {
 ``` 
  
 <br>
+<br>
 
 ### inheritance (extends)
 
 text...
 
+<br>
 <br>
 
 ### constructors
@@ -89,11 +91,13 @@ text...
 text...
 
 <br>
+<br>
 
 ### java access specifiers
 
 text...
 
+<br>
 <br>
 
 ![geometrics console](/images/geometricsconsole.jpg)
