@@ -41,6 +41,10 @@ To try the console program out, just change the values in the instantiated objec
 ![geometrics instantiated](/images/geometricsinstantiated.jpg)
 
 <br>
+
+(the next article describes a console program where the user instead has the possibility to alter the values directly by console input)
+
+<br>
 <br>
 
 ### entry point
