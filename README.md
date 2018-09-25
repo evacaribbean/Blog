@@ -97,8 +97,7 @@ text...
 
 text...
 
-<br>
-<br>
+<br> 
 
 ![geometrics console](/images/geometricsconsole.jpg)
 
