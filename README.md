@@ -22,7 +22,7 @@ This geometrics program is coded in one source file. Without zillions of classes
 
 I create a task, saying:
 
-<em>"Create a console program that changes the colors and sizes of its geometrical figures. Depending on each shape's area or volume."</em>      
+<em>"Build a console program that changes the colors and sizes of its geometrical figures. Depending on each shape's area or volume."</em>      
 
 <br>
 
