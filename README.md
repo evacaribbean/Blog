@@ -92,7 +92,7 @@ public class G {
 
 ### inheritance (extends)  
 
-The only thing in this program that extends from the superclass "Geometry", are the variables. To be used in each and everyone’s geometry subclass to avoid variable duplicates.
+The only thing in this program that extends from the superclass "Geometry", are the variables. To be used in each geometry subclass to avoid variable duplicates.
 
 "Geometry" also has two void methods (without being used as "extensions"). The "main class" calls (invokes) the info() method. The other one doesn't do anything.
 
