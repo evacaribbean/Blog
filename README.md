@@ -98,6 +98,7 @@ The only thing in this program that extends from the superclass "Geometry", are 
 
 Plain and simple.
 
+<br>
 
 ``` javascript
 class Circle extends Geometry { … }
