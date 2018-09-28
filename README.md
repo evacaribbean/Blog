@@ -116,7 +116,9 @@ Viewing inheritance in its context of *interface*, *superclass*, *subclass*, *ab
 
 <br>
 
-First, any class “implements” from an interface. But a subclass“extends” (inherits) from an abstract class or a superclass (as well as “implements”).
+First. Any class “implements” from an interface. But a subclass“extends” (inherits) from an abstract class or a superclass (as well as “implements”).
+
+<br>
 
 **Now, looking at the picture’s** subclass: “Bird”. It can inherit from the two abstract classes and the superclass. And if it wish to use the interface it does so by implementing it.
 
