@@ -106,9 +106,15 @@ class Circle extends Geometry { … }
 
 By calling the geometry class from the circle class. Asking to extend from geometry. Circle inherits all available varaibles and methods from geometry. In this contect geometry is a superclass and circle a subclass. Sometimes also refered to as parent and child classes. 
 
-Looking at inheritance in its context of *interface*, *superclass*, *subclass*, *abstract class*, *overload* and *override* from a more overall perspective, the concept will be quite straightforward.  Below a picture on this concept. 
+<br>
 
+Looking at inheritance in its context of *interface*, *superclass*, *subclass*, *abstract class*, *overload* and *override* from a more overall perspective, the concept will be quite straightforward. Below a picture on this concept. 
 
+![a logical perspective](/images/overallperspective.jpg)
+
+<br>
+
+...
 
 <br>
 <br>
