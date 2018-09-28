@@ -104,7 +104,7 @@ Plain and simple.
 class Circle extends Geometry { … }
 ``` 
 
-By calling the geometry class from the circle class. Asking to extend from geometry. Circle inherits all available varaibles and methods from geometry. In this contect geometry is a superclass and circle a subclass. Sometimes also refered to as parent and child classes. 
+By calling the geometry class from the circle class. Asking to extend from geometry. Circle inherits all available varaibles and methods from geometry. In this context, geometry is a superclass and circle a subclass. Sometimes also refered to as parent and child classes. 
 
 <br>
 
@@ -116,7 +116,19 @@ Looking at inheritance in its context of *interface*, *superclass*, *subclass*, 
 
 <br>
 
-...
+First, any class “implements” from an interface. But a subclass“extends” (inherits) from an abstract class or a superclass (as well as “implements”).
+
+Now, looking at the picture’s subclass: “Bird”. It can inherit from the two abstract classes and the superclass. And if it wish to use the interface it does so by implementing it.
+
+To narrow it done a bit. If the program is well written, there will be no logical reason why Bird should use the abstract class: “Plants”. And likewise, both the superclass and the abstract class will not repeat the members that already exist in the interface: “Unspecific”. Instread, the interface will be implemented.
+
+Now, looking at the subclass: “Forest” instead. It will in the same manor inherit (“extend”) from its abstract class: “Plants” and its superclass: “Biology”. 
+
+And finally. The interface's members should preferably be so common, that they can be used in every class. In this way these members don't have to be repeated in any other class in the program.  
+
+<br>
+
+Check for example: Ladybug, Frog, Bryophyte, Human and Berry out.
 
 <br>
 <br>
