@@ -122,13 +122,11 @@ Now, looking at the picture’s subclass: “Bird”. It can inherit from the tw
 
 To narrow it done a bit. If the program is well written, there will be no logical reason why Bird should use the abstract class: “Plants”. And likewise, both the superclass and the abstract class will not repeat the members that already exist in the interface: “Unspecific”. Instread, the interface will be implemented.
 
-Now, looking at the subclass: “Forest” instead. It will in the same manor inherit (“extend”) from its abstract class: “Plants” and its superclass: “Biology”. 
-
-And finally. The interface's members should preferably be so common, that they can be used in every class. In this way these members don't have to be repeated in any other class in the program.  
+Now, looking at the subclass: “Forest” instead. It will in the same manor inherit (“extend”) from its abstract class: “Plants” and its superclass: “Biology”. And finally. The interface's members should preferably be so common, that they can be used in every class. In this way these members don't have to be repeated in any other class in the program.  
 
 <br>
 
-Check for example: Ladybug, Frog, Bryophyte, Human and Berry out.
+Check for example: Ladybug, Frog, Bryophyte, Human and Berry.
 
 <br>
 <br>
