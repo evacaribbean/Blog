@@ -108,7 +108,7 @@ By calling the geometry class from the circle class. Asking to extend from geome
 
 <br>
 
-Looking at inheritance in its context of *interface*, *superclass*, *subclass*, *abstract class*, *overload* and *override* from a more overall perspective, the concept will be quite straightforward. Below a picture on this concept. 
+Viewing inheritance in its context of *interface*, *superclass*, *subclass*, *abstract class*, *overload* and *override* from a more overall perspective, the concept will be quite straightforward. Below a picture on this concept. 
 
 <br>
 
@@ -118,11 +118,11 @@ Looking at inheritance in its context of *interface*, *superclass*, *subclass*, 
 
 First, any class “implements” from an interface. But a subclass“extends” (inherits) from an abstract class or a superclass (as well as “implements”).
 
-**Now, looking at** the picture’s subclass: “Bird”. It can inherit from the two abstract classes and the superclass. And if it wish to use the interface it does so by implementing it.
+**Now, looking at the picture’s** subclass: “Bird”. It can inherit from the two abstract classes and the superclass. And if it wish to use the interface it does so by implementing it.
 
 To narrow it done a bit. If the program is well written, there will be no logical reason why Bird should use the abstract class: “Plants”. And likewise, both the superclass and the abstract class will not repeat the members that already exist in the interface: “Unspecific”. Instread, the interface will be implemented.
 
-**Checking the** subclass: “Forest” instead. It will in the same manor inherit (“extend”) from its abstract class: “Plants” and its superclass: “Biology”. And finally. The interface's members should preferably be so common, that they can be used in every class. In this way these members don't have to be repeated in any other class in the program.  
+**Checking the subclass:** “Forest” instead. It will in the same manor inherit (“extend”) from its abstract class: “Plants” and its superclass: “Biology”. And finally. The interface's members should preferably be so common, that they can be used in every class. In this way these members don't have to be repeated in any other class in the program.  
 
 <br>
 
