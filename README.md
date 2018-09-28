@@ -116,7 +116,7 @@ Viewing inheritance in its context of *interface*, *superclass*, *subclass*, *ab
 
 <br>
 
-First. Any class “implements” from an interface. But a subclass“extends” (inherits) from an abstract class or a superclass (as well as “implements”).
+First. Any class can “implements” from an interface. But a subclass“extends” (inherits) from an abstract class or a superclass (as well as “implements”).
 
 <br>
 
@@ -124,7 +124,7 @@ First. Any class “implements” from an interface. But a subclass“extends”
 
 To narrow it done a bit. If the program is well written, there will be no logical reason why Bird should use the abstract class: “Plants”. And likewise, both the superclass and the abstract class will not repeat the members that already exist in the interface: “Unspecific”. Instread, the interface will be implemented.
 
-**Checking the subclass:** “Forest” instead. It will in the same manor inherit (“extend”) from its abstract class: “Plants” and its superclass: “Biology”. And finally. The interface's members should preferably be so common, that they can be used in every class. In this way these members don't have to be repeated in any other class in the program.  
+**Checking the subclass:** “Forest” instead. It will in the same manner inherit (“extend”) from its abstract class: “Plants” and its superclass: “Biology”. And finally. The interface's members should preferably be so common, that they can be used in every class. In this way these members don't have to be repeated in any other class in the program.  
 
 <br>
 
