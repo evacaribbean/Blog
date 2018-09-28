@@ -110,6 +110,8 @@ By calling the geometry class from the circle class. Asking to extend from geome
 
 Looking at inheritance in its context of *interface*, *superclass*, *subclass*, *abstract class*, *overload* and *override* from a more overall perspective, the concept will be quite straightforward. Below a picture on this concept. 
 
+<br>
+
 ![a logical perspective](/images/overallperspective.jpg)
 
 <br>
