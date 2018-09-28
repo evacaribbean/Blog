@@ -28,7 +28,7 @@
 
 ## Color and Size in Geometrics
  
-This geometrics program is coded in one source file. Without zillions of classes though with many enought, it could have been good to divide them into a few more source files. But here I wanted to focus on constructors, public and not public classes, inheritance (extends) and overloading.
+This geometrics program is coded in one source file. Without zillions of classes though with many enought, it could have been good to divide them into a few more source files. But here I wanted to focus on constructors, public and not public classes, inheritance and overloading.
 
 I create a task, saying:
 
@@ -40,9 +40,10 @@ I create a task, saying:
 
 <br>
 
-The solution above consists of six classes. Where the *main method entry point* is unfolded.
+The solution above consists of six classes. Where the main method entry point is unfolded.
 
-I find it nice to have as little as possible written in the entry point. So I often start here, and work may way back into the classes and its members. In this way the overview automatically has to present itself first. And with this, the design which will give the answers on how to code also naturally makes it easy on how to continue. From overwiew to "details".
+I find it nice to have as little as possible written in the entry point. So I often start here, and work may way back into the classes and its members. In this way the overview will present itself first. And the code design naturally finding its way from overwiew to "details".
+
 
 To try the console program out, just change the values in the instantiated objects.  
 
@@ -59,7 +60,7 @@ To try the console program out, just change the values in the instantiated objec
 
 ### entry point
 
-Starting with the overview, I've found it good to always begin coding and "set up" by the main method entry point. With this approach the code design easily forms and answers my questions on how the program should be written. 
+Starting with the overview, coding and "set up" the main method entry point. Now the code design easily forms and answers my questions on how the program should be written.
 
 <br>
 
@@ -89,9 +90,24 @@ public class G {
 <br>
 <br>
 
-### inheritance (extends)
+### inheritance (extends)  
 
-text...
+The only thing in this program that extends from the superclass "Geometry", are the variables. To be used in each and everyone’s geometry subclass to avoid variable duplicates.
+
+"Geometry" also has two void methods (without being used as "extensions"). The "main class" calls (invokes) the info() method. The other one doesn't do anything.
+
+Plain and simple.
+
+
+``` javascript
+class Circle extends Geometry { … }
+``` 
+
+By calling the geometry class from the circle class. Asking to extend from geometry. Circle inherits all available varaibles and methods from geometry. In this contect geometry is a superclass and circle a subclass. Sometimes also refered to as parent and child classes. 
+
+Looking at inheritance in its context of *interface*, *superclass*, *subclass*, *abstract class*, *overload* and *override* from a more overall perspective, the concept will be quite straightforward. 
+
+
 
 <br>
 <br>
