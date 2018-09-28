@@ -60,7 +60,7 @@ To try the console program out, just change the values in the instantiated objec
 
 ### entry point
 
-Starting with the overview, coding and "set up" the main method entry point. Now the code design easily forms and answers my questions on how the program should be written.
+Starting with the overview, coding and "set up" the main method entry point. The code design easily forms and answers my questions on how the program should be written.
 
 <br>
 
