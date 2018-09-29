@@ -71,7 +71,7 @@ Starting with the overview, coding and "set up" the main method entry point. The
 - Should the program have few or many classes?
 <br>
 
-``` javascript
+``` java
 public class G {
 	public static void main(String[] args) {
 		
@@ -90,7 +90,7 @@ public class G {
 <br>
 <br>
 
-### inheritance (extends)  
+#### inheritance (extends)  
 
 The only thing in this program that extends from the superclass "Geometry", are the variables. To be used in each geometry subclass to avoid variable duplicates.
 
