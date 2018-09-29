@@ -144,7 +144,7 @@ The same goes for Human and Bryophyte. And also for for example a ladybug, a for
 
 #### overriding and overloading
 
-This concept is basically also rather straightforward. If for example **Berry** desides to `extends` a methods from its abstrac class **Animals**, then this is called *overriding*. But if **Berry** changes something in this method's argument list, it is called *overloading*.   
+This concept is basically also rather straightforward. If for example **Bird** desides to `extends` a methods from its abstrac class **Animals**, then this is called *overriding*. But if **Bird** then changes something in this method's argument list after it is extended, it is called *overloading*.   
 
 <br>
 <br>
