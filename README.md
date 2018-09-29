@@ -118,7 +118,7 @@ Viewing inheritance in its context of *interface*, *superclass*, *subclass*, *ab
 
 <br>
 
-First. Any class can “implements” from an interface. But a subclass“extends” (inherits) from an abstract class or a superclass (as well as “implements”).
+First. Any class can `implements` from an interface. But a subclass 'extends' (inherits) from an abstract class or a superclass (as well as “implements”).
 
 <br>
 
@@ -130,7 +130,7 @@ Checking the subclass "**Forest**" instead. It will in the same manner inherit (
 
 <br>
 
-#### the Bryophyte, Human and the Berry
+#### the Bryophyte, the Human and the Berry
 
 Test for example: Ladybug, Frog, Bryophyte, Human and Berry.
 
