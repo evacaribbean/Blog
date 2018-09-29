@@ -118,7 +118,7 @@ Viewing inheritance in its context of *interface*, *superclass*, *subclass*, *ab
 
 <br>
 
-First. Any class can `implements` from an interface. But a subclass `extends` (inherits) from an abstract class or a superclass (as well as “implements”).
+First. Any class can `implements` from an interface. But a subclass can also `extends` (inherit) from an abstract class or a superclass.
 
 <br>
 
@@ -142,9 +142,11 @@ The same goes for Human and Bryophyte. And also for for example a ladybug, a for
 
 <br>
 
-#### overriding and overloading
+#### override and overload
 
-This concept is basically also rather straightforward. If for example **Bird** desides to `extends` a methods from its abstrac class **Animals**, then this is called *overriding*. But if **Bird** then changes something in this method's argument list after it is extended, it is called *overloading*.   
+This concept is basically also rather straightforward. If for example **Fish** desides to `extends` a methods from its abstrac class **Animals**, then this is called *override*. But if **Fish** then changes something in this method's argument list after it is extended, it is called *overload*.
+
+Overriding something (a method or for example a constructor) is when something is inherited. While overloading simply means     
 
 <br>
 <br>
