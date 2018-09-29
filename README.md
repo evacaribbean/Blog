@@ -104,7 +104,7 @@ Plain and simple.
 class Circle extends Geometry { … }
 ``` 
 
-By calling the geometry class from the circle class. Asking to extend from geometry. Circle inherits all available varaibles and methods from geometry. In this context, geometry is a superclass and circle a subclass. Sometimes also refered to as parent and child classes. 
+By calling the geometry class from for example the circle class. Asking to extend from geometry. Circle inherits all available varaibles and methods from geometry. In this context, geometry is a superclass and circle a subclass. Sometimes also refered to as parent and child classes. 
 
 <br>
 
