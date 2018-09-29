@@ -126,13 +126,26 @@ Looking at the picture’s subclass "**Bird**". It can inherit from the two abst
 
 To narrow it down a bit. If the program is well written, there will be no logical reason why Bird should use the abstract class: "Plants". And likewise, both the superclass and the abstract class will not repeat the members that already exist in the interface: “Unspecific”. Instread, the interface will be implemented.
 
-Checking the subclass "**Forest**" instead. It will in the same manner inherit (`extend`) from its abstract class "Plants" and its superclass "Biology". And finally. The interface's members should preferably be so common, that they can be used in every class. In this way these members don't have to be repeated in any other class in the program.  
+Checking the subclass "**Forest**" instead. It will in the same manner inherit (`extends`) from its abstract class "Plants" and its superclass "Biology". And finally. The interface's members should preferably be so common, that they can be used in every class. In this way these members don't have to be repeated in any other class in the program.  
 
 <br>
 
-#### the Bryophyte, the Human and the Berry
+#### the bryophyte, the human and the berry
 
-Test for example: Ladybug, Frog, Bryophyte, Human and Berry.
+Lest test the similarities between a bryophyte a human and a berry, accordingly to the picture's interface.
+
+They are all included in the superclass "**Biology**", as they are living creatures. And everyone will also inherit from the abstract "**Plants**" or "**Animals**". Along with that they all have a depth, height, name, type, volume, weight, width and year (the interface) together. 
+
+So a berry can use all the interface's members, just as a human, or a bryophyte. The superclass can `implements` the interface "**Unspecific**". The next  
+
+
+a Ladybug, a Frog and a Flower. 
+
+<br>
+
+#### overriding and overloading
+
+text... 
 
 <br>
 <br>
