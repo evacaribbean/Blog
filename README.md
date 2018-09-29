@@ -132,11 +132,11 @@ Checking the subclass "**Forest**" instead. It will in the same manner inherit (
 
 #### the bryophyte, the human and the berry
 
-Lest test the similarities between a bryophyte a human and a berry, accordingly to the picture's interface.
+Let's test the similarities between a bryophyte a human and a berry, accordingly to the picture's interface.
 
-They are all included in the superclass "**Biology**", as they are living creatures. And everyone will also inherit from the abstract "**Plants**" or "**Animals**". Along with that they all have a depth, height, name, type, volume, weight, width and year (the interface) together. 
+They are all included in the superclass "**Biology**", as they are living creatures. And everyone will also inherit from the abstract class "**Plants**" or "**Animals**". Along with that they all have a depth, height, name, type, volume, weight, width and year (the interface) together. 
 
-So a berry can use all the interface's members, just as a human, or a bryophyte. The superclass can `implements` the interface "**Unspecific**". The next  
+So a berry can use all the interface's members just as a human, or a bryophyte. The superclass can `implements` the interface "**Unspecific**". The next  
 
 
 a Ladybug, a Frog and a Flower. 
