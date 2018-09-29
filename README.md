@@ -138,13 +138,13 @@ They are all included in the superclass "**Biology**", as they are living creatu
 
 So **Berry** can use all the interface's members just as a human, or a bryophyte. The superclass here `implements` the interface "**Unspecific**". Next, after it has `extends` from the superclass "Biology" it'll `extends` from its abstract class "Plants". And finally, as berry has some specific features (variables or methods) that its cousins "Tree" or "Flower" don't have. It'll add these in its own class.
 
-The same goes for human and bryophyte. And for exeample a ladybug, a forest or a bacteria. 
+The same goes for Human and Bryophyte. And also for example a ladybug, a forest or a bacteria. 
 
 <br>
 
 #### overriding and overloading
 
-This concept is also rather strightforward. When 
+This concept is rather straightforward. If for example **Berry** desides to `extends` a methods from its abstrac class **Animals*, then this is called *overriding*. But if **Berry** changes something in this method's argument list, it is called *overloading*.   
 
 <br>
 <br>
