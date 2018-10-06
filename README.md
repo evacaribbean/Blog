@@ -36,7 +36,7 @@ I create a task, saying:
 
 <br>
 
-![geometrics overview](/images/geometricsoverview.jpg)
+![a geometrics console overview](/images/geometricsoverview.jpg)
 
 <br>
 
@@ -49,7 +49,7 @@ To try the console program out, just change the values in the instantiated objec
 
 <br>
 
-![geometrics instantiated](/images/geometricsinstantiated.jpg)
+![the geometrics instantiated objects](/images/geometricsinstantiated.jpg)
 
 <br>
 
@@ -114,7 +114,7 @@ Viewing inheritance in its context of *interface*, *superclass*, *subclass*, *ab
 
 <br>
 
-![a logical perspective](/images/overallperspective.jpg)
+![a logical overall perspective picture](/images/overallperspective.jpg)
 
 <br>
 
@@ -136,7 +136,7 @@ Let's test the similarities between a bryophyte a human and a berry. Accordingly
 
 They are all included in the superclass "**Biology**", as they are living creatures. And everyone will also inherit from the abstract class "**Plants**" or "**Animals**". Along with that they all have a depth, height, name, type, volume, weight, width and year (the interface) together. 
 
-So **Berry** can use all the interface's members just as a human, or a bryophyte. The superclass here `implements` the interface "**Unspecific**". Next, after it has `extends` from the superclass "Biology", it'll `extends` from its abstract class "Plants". And finally, as berry has some specific features (variables or methods) that its cousins "Tree" or "Flower" don't have. It'll add these in its own class.
+So **Berry** can use all the interface's members just as a human, or a bryophyte. The superclass here `implements` the interface "**Unspecific**". Next, after Berry has `extends` from the superclass "Biology", it'll `extends` from its abstract class "Plants". And finally, as it has some specific features (variables or methods) that its cousins "Tree" or "Flower" don't have. Berry will add these in its own class.
 
 The same goes for Human and Bryophyte. And also for for example a ladybug, a forest or a bacteria. 
 
@@ -144,9 +144,9 @@ The same goes for Human and Bryophyte. And also for for example a ladybug, a for
 
 #### override and overload
 
-This concept is basically also rather straightforward. If for example **Fish** desides to `extends` a methods from its abstract class **Animals**, then this is called *override*. But if **Fish** then changes something in this method's argument list after it is extended, it is called *overload*.
+This concept is basically also rather straightforward. If for example **Ladybug ** desides to `extends` a methods from its abstract class **Animals**, then this is called *override*. But if **Ladybug ** then changes something in that method's argument list after it is extended, it is called *overload*.
 
-Override a method or a constructor, is what a class does when it inherits. While overloading doesn't have anything with inheritance to do. It is simply just what is done when a method or a constructor from another class is reused, and something thereafter is changed in this method's or constructor's argument list.      
+Override a method or a constructor, is what a class does when it **inherits**. While overloading doesn't have anything with inheritance to do. It is simply just what is done when a method or a constructor from another class is reused, and something thereafter is changed in this method's or constructor's **argument list**.      
 
 <br>
 <br>
@@ -166,7 +166,7 @@ text...
 
 <br> 
 
-![geometrics console](/images/geometricsconsole.jpg)
+![the geometrics console output](/images/geometricsconsole.jpg)
 
 <br>
 <br>
