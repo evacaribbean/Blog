@@ -144,7 +144,7 @@ The same goes for Human and Bryophyte. And also for for example a ladybug, a for
 
 #### override and overload
 
-This concept is basically also rather straightforward. If for example **Ladybug ** desides to `extends` a methods from its abstract class **Animals**, then this is called *override*. But if **Ladybug ** then changes something in that method's argument list after it is extended, it is called *overload*.
+This concept is basically also rather straightforward. If for example **Ladybug** desides to `extends` a methods from its abstract class **Animals**, then this is called *override*. But if **Ladybug** then changes something in that method's argument list after it is extended, it is called *overload*.
 
 Override a method or a constructor, is what a class does when it **inherits**. While overloading doesn't have anything with inheritance to do. It is simply just what is done when a method or a constructor from another class is reused, and something thereafter is changed in this method's or constructor's **argument list**.      
 
