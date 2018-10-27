@@ -75,7 +75,7 @@ To try the console program out, just change the values in the instantiated objec
 
 <br>
 
-(the [next article](https://github.com/evacaribbean/Blog#input-output) describes a console program where the user instead has the possibility to alter the values directly by console input)
+(the [next article](https://github.com/evacaribbean/Blog#input-directly-through-the-console) describes a console program where the user instead has the possibility to alter the values directly by console input)
 
 <br>
 <br>
