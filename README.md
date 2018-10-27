@@ -153,8 +153,6 @@ Override a method or a constructor, is what a class does when it **inherits**. W
 
 ### constructors
 
-The same applies 
-
 constructor: default, no argument, access modifiers, overloaded, parameterized 
 
 <br>
