@@ -7,6 +7,8 @@
 <br>
 
 - ...
+- [A Database Connected](https://github.com/evacaribbean/Blog#a-database-connected)
+- [Input Directly Through the Console](https://github.com/evacaribbean/Blog#input-directly-though-the-console) 
 - [Input Output](https://github.com/evacaribbean/Blog#input-output)
 - [Color and Size in Geometrics](https://github.com/evacaribbean/Blog#color-and-size-in-geometrics) 
 - [The Java Adventure](https://github.com/evacaribbean/Blog#the-java-adventure)
@@ -15,6 +17,26 @@
 <br>
 <br>
 <br> 
+
+## A Database Connected  
+
+...
+
+<br>
+<br>
+<br>
+<br>
+
+
+## Input Directly Through the Console  
+
+...
+
+<br>
+<br>
+<br>
+<br>
+
 
 ## Input Output  
 
