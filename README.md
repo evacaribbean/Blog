@@ -34,9 +34,10 @@ A word playing title… But then again, just words. The little “WordCaser” a
 
 ![the WordCaser app](/images/wordcaser.jpg)
 
-<br><br>
+<br>
+<br>
 
-At last, it’s time for apps! So fun. This is a [NetBeans](https://netbeans.org) Platform Application (as time goes by I go through [IntelliJ](https://www.jetbrains.com) and [Eclipse](https://www.eclipse.org) working with all, of course 🐬 🐋 🐳). 
+At last, it’s time for apps! This is a [NetBeans](https://netbeans.org) Platform Application. And as time goes by I go through [IntelliJ](https://www.jetbrains.com) and [Eclipse](https://www.eclipse.org) working with all, of course 🐬 🐋 🐳 
 
 <br>
 <br>
