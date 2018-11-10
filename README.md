@@ -26,7 +26,17 @@
 
 ## A Module App Word Caser with Swing   
 
-...
+Well, why not?
+
+A word playing title… But then again, just words. The little “WordCaser” app’s only purpose is to switch letters from lower case to upper case, and vice versa. 
+
+<br>
+
+![the WordCaser app](/images/wordcaser.jpg)
+
+<br><br>
+
+At last, it’s time for apps! So fun. This is a [NetBeans](https://netbeans.org) Platform Application (as time goes by I go through [IntelliJ](https://www.jetbrains.com) and [Eclipse](https://www.eclipse.org) working with all, of course 🐬 🐋 🐳). 
 
 <br>
 <br>
