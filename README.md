@@ -32,7 +32,7 @@ A word playing title… But then again, just words. The little “WordCaser” a
 
 <br>
 
-![a geometrics console overview](/images/geometricsoverview.jpg)
+![the word-caser app](/images/wordcaser.jpg)
 
 <br>
 <br>
