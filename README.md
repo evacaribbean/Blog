@@ -7,6 +7,8 @@
 <br>
 
 - ...
+- [A Module App Word Caser with Swing](https://github.com/evacaribbean/Blog#a-module-app-word-caser-with-swing)
+- [CRUD](https://github.com/evacaribbean/Blog#crud)Blog#a-module-app-word-caser-with-swing)
 - [A Database Connected](https://github.com/evacaribbean/Blog#a-database-connected)
 - [Input Directly Through the Console](https://github.com/evacaribbean/Blog#input-directly-though-the-console) 
 - [Input Output](https://github.com/evacaribbean/Blog#input-output)
@@ -17,6 +19,26 @@
 <br>
 <br>
 <br> 
+ 
+
+## A Module App Word Caser with Swing   
+
+...
+
+<br>
+<br>
+<br>
+<br>
+
+
+## CRUD  
+
+...
+
+<br>
+<br>
+<br>
+<br>
 
 ## A Database Connected  
 
@@ -75,7 +97,7 @@ To try the console program out, just change the values in the instantiated objec
 
 <br>
 
-(the [next article](https://github.com/evacaribbean/Blog#input-directly-through-the-console) describes a console program where the user instead has the possibility to alter the values directly by console input)
+([next article](https://github.com/evacaribbean/Blog#input-directly-through-the-console) describes a console program where the user instead has the possibility to alter the values directly by console input)
 
 <br>
 <br>
