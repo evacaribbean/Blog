@@ -8,7 +8,8 @@
 
 - ...
 - [A Module App Word Caser with Swing](https://github.com/evacaribbean/Blog#a-module-app-word-caser-with-swing)
-- [CRUD](https://github.com/evacaribbean/Blog#a-module-app-word-caser-with-swing)
+- [CRUD 2](https://github.com/evacaribbean/Blog#)
+- [CRUD 1](https://github.com/evacaribbean/Blog#)
 - [A Database Connected](https://github.com/evacaribbean/Blog#a-database-connected)
 
 <br>
@@ -36,7 +37,7 @@ A word playing title… But then again, just words. Why not? The small “WordCa
 
 <br>
 
-At last, it’s time for apps! 🐬 🐋 🐠 🐳 This is a [NetBeans](https://netbeans.org) Platform Application. But as time goes by I also go through [IntelliJ](https://www.jetbrains.com) and [Eclipse](https://www.eclipse.org). It’s fun to administering and code in all of them, and great that the IDEs feel equal familiar and seamless to work in. So far I’ve found it to be a choice, only depending on purpose and taste.  
+At last 🐬 🐋, it’s time 🐠 for apps! 🐳 This is a [NetBeans](https://netbeans.org) Platform Application. But as time goes by I also go through [IntelliJ](https://www.jetbrains.com) and [Eclipse](https://www.eclipse.org). It’s fun to administering and code in all of them, and great that the IDEs feel equal familiar and seamless to work in. So far I’ve found it to be a choice, only depending on purpose and taste.  
 
 The small application’s single coding part here is the code that has to be added to the two event handlers, “upButton” and “lowButton”.    
 
@@ -69,7 +70,16 @@ The small application’s single coding part here is the code that has to be add
 <br>
 
 
-## CRUD  
+## CRUD 2 
+
+...
+
+<br>
+<br>
+<br>
+<br>
+
+## CRUD 1 
 
 ...
 
