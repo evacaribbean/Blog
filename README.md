@@ -28,7 +28,7 @@
 
 Well, why not?
 
-A word playing title… But then again, just words. The small “WordCaser” app’s only purpose is to switch letters from lower case to upper case, and vice versa. 
+A word playing title… But then again, just words. Why not? The small “WordCaser” app’s only purpose is to switch letters from lower case to upper case, and vice versa. 
  
 <br>
 
