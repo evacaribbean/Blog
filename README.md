@@ -38,7 +38,7 @@ A word playing title… But then again, just words. The small “WordCaser” ap
 
 At last, it’s time for apps! 🐬 🐋 🐠 🐳 This is a [NetBeans](https://netbeans.org) Platform Application. But as time goes by I also go through [IntelliJ](https://www.jetbrains.com) and [Eclipse](https://www.eclipse.org). It’s fun to administering and code in all of them, and great that the IDEs feel equal familiar and seamless to work in. So far I’ve found it to be a choice, only depending on purpose and taste.  
 
-The small application’s only coding part here is the code that has to be added to the two event handlers, “upButton” and “lowButton”.    
+The small application’s single coding part here is the code that has to be added to the two event handlers, “upButton” and “lowButton”.    
 
 <br>
 
