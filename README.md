@@ -7,6 +7,10 @@
 <br>
 
 - ...
+
+<br>
+
+- [A Do Re Mi Fa Sol La App ](https://github.com/evacaribbean/Blog#a-do-re-mi-fa-sol-la-app)
 - [A Module App Word Caser with Swing](https://github.com/evacaribbean/Blog#a-module-app-word-caser-with-swing)
 - [CRUD 2](https://github.com/evacaribbean/Blog#)
 - [CRUD 1](https://github.com/evacaribbean/Blog#)
@@ -24,6 +28,14 @@
 <br>
 <br> 
  
+## A Do Re Mi Fa Sol La App 
+
+...
+
+<br>
+<br>
+<br>
+<br>
 
 ## A Module App Word Caser with Swing   
 
