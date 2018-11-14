@@ -39,6 +39,12 @@
 
 ...
 
+![the index image](/images/blogindex.jpg)
+
+<br>
+
+![the index image](/images/blogindex.png)
+
 <br>
 <br>
 <br>
@@ -65,7 +71,7 @@ A word playing title… But then again, just words. Why not? The small “WordCa
 
 <br>
 
-At last 🐬 🐋, it’s time 🐠 for apps! 🐳 This is a [NetBeans](https://netbeans.org) Platform Application. As time goes by I also go through [IntelliJ](https://www.jetbrains.com) and [Eclipse](https://www.eclipse.org). It’s swell to administering and code in all, and know that the IDEs feel equal familiar and seamless to work in. So far I’ve found it to be a choice, only depending on purpose and taste.      
+At last 🐬 🐋, it’s time 🐠 for apps! 🐳 This is a [NetBeans](https://netbeans.org) Platform Application. As time goes by I also go through [IntelliJ](https://www.jetbrains.com) and [Eclipse](https://www.eclipse.org). It’s swell to administering and code in all, and kind of know that the IDEs feel equal familiar and seamless to work in. So far I’ve found it to be a choice, only depending on purpose and taste.      
 
 The application’s single coding part that has to be added is the two event handlers, “upButton” and “lowButton”.
     
