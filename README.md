@@ -41,7 +41,7 @@
 
 <br>
 
-![the index image](/images/blogindex.png) 
+<!-- ![the index image](/images/blogindex.png) -->
 
 <br>
 <br>
