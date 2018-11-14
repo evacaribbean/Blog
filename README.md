@@ -9,11 +9,11 @@
 - ...
 - ...
 - ...
-- ...
+- [Agility, Design and My First Full Stack Project](https://github.com/evacaribbean/Blog#agility,-design-and-my-first-full-stack-project)
 
 <br>
 
-*my first swim in the ocean*
+*a first swim in the ocean*
 
 <br>
 
@@ -34,6 +34,15 @@
 <br>
 <br>
 <br> 
+ 
+## Agility, Design and My First Full Stack Project 
+
+...
+
+<br>
+<br>
+<br>
+<br>
  
 ## A Do Re Mi Fa Sol La App 
 
