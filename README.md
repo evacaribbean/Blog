@@ -9,7 +9,7 @@
 - ...
 - ...
 - ...
-- [Agility, Design and My First Full Stack Project](https://github.com/evacaribbean/Blog#agility,-design-and-my-first-full-stack-project)
+- [Agility, Design and My First Full Stack Project](https://github.com/evacaribbean/Blog#agility-design-and-my-first-full-stack-project)
 
 <br>
 
@@ -38,8 +38,6 @@
 ## Agility, Design and My First Full Stack Project 
 
 ...
-
-![the index image](/images/blogindex.jpg)
 
 <br>
 
