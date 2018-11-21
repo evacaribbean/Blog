@@ -144,8 +144,9 @@ When you know, it’s really easy. And when not knowing, of course it’s the re
 
 Even in a computer’s world every language needs to be interpreted, if different kind of machines and systems should be able to understand each other. One could switch of course, talking the language that applies for the moment. But is it realistic?
 
-Databases have their own way in talking, and programming languages theirs. 
-  
+So instead, have databases their own way in talking and programming languages theirs. And the interpreter translates between the two. The interpreter’s name is “Java Database Connectivity”. It’s an application programming interface. And to make the two connect, it uses its JDBC drivers. 
+
+Below two practical examples: 
 
 <br>
 <br>
