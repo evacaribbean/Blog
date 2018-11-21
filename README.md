@@ -13,7 +13,7 @@
 
 <br>
 
-*a first swim in the ocean - no structure yet, just diving in having fun and exploring the basics just as it comes *
+*a first swim in the ocean - no structure yet, just diving in having fun and exploring the basics just as it comes*
 
 <br>
 
