@@ -47,11 +47,13 @@
 <br>
 <br>
 <br>
+<br>
  
 ## A Do Re Mi Fa Sol La App 
 
 ...
 
+<br>
 <br>
 <br>
 <br>
@@ -98,7 +100,7 @@ The application’s single coding part that has to be added is the two event han
 ...
 
 <br>
-<br>
+<br> 
 <br>
 <br>
 
@@ -111,11 +113,13 @@ The application’s single coding part that has to be added is the two event han
 <br>
 <br>
 <br>
+<br>
 
 ## CRUD 1 
 
 ...
 
+<br>
 <br>
 <br>
 <br>
@@ -139,6 +143,8 @@ More clearly I could now ask and answer myself, on how to connect java applicati
 <br>
 <br>
 <br>
+<br>
+<br>
 
 
 ## Input Directly Through the Console  
@@ -149,12 +155,14 @@ More clearly I could now ask and answer myself, on how to connect java applicati
 <br>
 <br>
 <br>
+<br>
 
 
 ## Input Output  
 
 ...
 
+<br>
 <br>
 <br>
 <br>
@@ -305,6 +313,7 @@ text...
 <br>
 <br>
 <br>
+<br>
 
 
 ## The Java Adventure
@@ -315,6 +324,7 @@ But nop! It is with such delight I´ve been reading books, enjoy Internet videos
 
 Then I knew, this is it. This is the subject. 
 
+<br>
 <br>
 <br>
 <br>
