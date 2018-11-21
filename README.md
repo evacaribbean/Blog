@@ -13,7 +13,7 @@
 
 <br>
 
-*a first swim in the ocean*
+*a first swim in the ocean - no structure yet, just diving in having fun and exploring the basics just as it comes *
 
 <br>
 
@@ -123,7 +123,11 @@ The application’s single coding part that has to be added is the two event han
 
 ## A Database Connected  
 
-...
+I eagely wanted to come to the point where I could start to explore the sea more than focus on how to swim. So many questions, and each had in its turn its own life and worlds of wonder. So fun, interesting and in good ways challenging.
+
+And one morning, though not swimming like the seals but friends now, I saw a glimpse! Of beacons, islands, waves, its ocean floor, and sky with wind. 
+
+Now it was time. In the evening I swam up to the surface for air again and to see, had I really understood? These glimpses, could it be? That at night, also the sky wore light? …and…they were there! The stars!
 
 <br>
 <br>
