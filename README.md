@@ -140,6 +140,13 @@ Now it was time. In the evening I swam up to the surface for air again and to se
 
 More clearly I could now ask and answer myself, on how to connect java applications to databases.  
 
+When you know, it’s really easy. And when not knowing, of course it’s the reverse.
+
+Even in a computer’s world every language needs to be interpreted, if different kind of machines and systems should be able to understand each other. One could switch of course, talking the language that applies for the moment. But is it realistic?
+
+Databases have their own way in talking, and programming languages theirs. 
+  
+
 <br>
 <br>
 <br>
