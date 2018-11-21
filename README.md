@@ -123,7 +123,7 @@ The application’s single coding part that has to be added is the two event han
 
 ## A Database Connected  
 
-I eagely wanted to come to the point where I could start to explore the sea more than focus on how to swim. So many questions, and each had in its turn its own life and worlds of wonder. So fun, interesting and in good ways challenging.
+I eagerly wanted to come to the point where I could start to explore the sea more than focus on how to swim. So many questions, and each had in its turn its own life and worlds of wonder. So fun, interesting and in good ways challenging.
 
 And one morning, though not swimming like the seals but friends now, I saw a glimpse! Of beacons, islands, waves, its ocean floor, and sky with wind. 
 
