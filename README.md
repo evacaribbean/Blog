@@ -220,7 +220,9 @@ Now the connection variables can be invoked (called upon) by the statements, con
 
 <br>
 
-But as these methods are risky they have to be surrounded with try-catch blocks (the connection can break or in other ways not pass).    
+But when calling a risky method it has to be surrounded with try-catch block (just as with imports, the IDE will also give suggestions about try-catch blocks and throws clauses). As the Java code can be allright, but the connection not for other reasons.
+
+Below there's one error because    
 
 ``` javascript 
         ...
