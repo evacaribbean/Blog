@@ -58,6 +58,7 @@
 <br>
 <br>
 <br>
+<br>
 
 ## A Module App Word Caser with Swing   
 
@@ -100,6 +101,7 @@ The application’s single coding part that has to be added is the two event han
 ...
 
 <br>
+<br>
 <br> 
 <br>
 <br>
@@ -114,11 +116,13 @@ The application’s single coding part that has to be added is the two event han
 <br>
 <br>
 <br>
+<br>
 
 ## CRUD 1 
 
 ...
 
+<br>
 <br>
 <br>
 <br>
@@ -151,6 +155,7 @@ Below two practical examples:
 <br>
 <br>
 <br>
+<br>
 
 
 ## Input Directly Through the Console  
@@ -162,12 +167,14 @@ Below two practical examples:
 <br>
 <br>
 <br>
+<br>
 
 
 ## Input Output  
 
 ...
 
+<br>
 <br>
 <br>
 <br>
@@ -320,6 +327,7 @@ text...
 <br>
 <br>
 <br>
+<br>
 
 
 ## The Java Adventure
@@ -330,6 +338,7 @@ But nop! It is with such delight I´ve been reading books, enjoy Internet videos
 
 Then I knew, this is it. This is the subject. 
 
+<br>
 <br>
 <br>
 <br>
