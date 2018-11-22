@@ -33,6 +33,7 @@
 
 <br>
 <br>
+<br>
 <br> 
  
 ## Agility, Design and My First Full Stack Project 
@@ -48,11 +49,13 @@
 <br>
 <br>
 <br>
+<br>
  
 ## A Do Re Mi Fa Sol La App 
 
 ...
 
+<br>
 <br>
 <br>
 <br>
@@ -105,7 +108,7 @@ The application’s single coding part that has to be added is the two event han
 <br> 
 <br>
 <br>
-
+<br>
 
 ## CRUD 2 
 
@@ -117,11 +120,13 @@ The application’s single coding part that has to be added is the two event han
 <br>
 <br>
 <br>
+<br>
 
 ## CRUD 1 
 
 ...
 
+<br>
 <br>
 <br>
 <br>
@@ -146,17 +151,63 @@ More clearly I could now ask and answer myself, on how to connect java applicati
 
 Even in a computer’s world every language needs to be interpreted if different machines and systems should be able to understand each other. One could switch of course, talking the language that applies for the moment. But is it realistic?
 
-So instead, databases communicate in their own way and programming languages theirs. And the interpreter translates between the two. The interpreter’s name is “Java Database Connectivity”. It’s an application programming interface. And to make the two connect, it uses its JDBC drivers. 
-
-Below two practical examples: 
+So instead, databases communicate in their own way and programming languages in theirs. And the interpreter translates between the two. The interpreter’s name is “Java Database Connectivity”. It’s an application programming interface. And to make the two connect, it uses its JDBC drivers. 
 
 <br>
 <br>
-<br>
-<br>
-<br>
+
+### the code
+
+Two packages will be imported:
+
+``` javascript
+import java.sql.Connection;
+import java.sql.DriverManager;    
+```
 <br>
 
+Without a main method, no program (in nearly all cases). Here, the method will reside in the program's java file "JavaToDatabaseConnect".
+
+``` javascript
+public class JavaToDatabaseConnect {
+    
+    public static void main(String[] args) {
+    
+    ...
+    	
+ 	}
+}  
+```
+
+<br>
+
+It's always nice to see that the code compiles properly. Therefore is the first statement a println-message.     
+
+``` javascript
+public class JavaToDatabaseConnect {
+
+    public static void main(String[] args) {
+    
+        System.out.println("An embedded Derby driver exemple. The program compiles.");  
+    ...
+    	
+ 	}
+}  
+```
+
+<br>
+
+...alltogether will the program have three messages.
+![a database connection message](/images/connectionmessage.jpg)
+
+<br>
+
+But back to the code, the next four statements concerns 
+
+<br>
+<br>
+<br>
+<br>
 
 ## Input Directly Through the Console  
 
@@ -168,7 +219,7 @@ Below two practical examples:
 <br>
 <br>
 <br>
-
+<br>
 
 ## Input Output  
 
@@ -180,7 +231,7 @@ Below two practical examples:
 <br>
 <br>
 <br>
-
+<br>
 
 ## Color and Size in Geometrics
  
@@ -328,7 +379,7 @@ text...
 <br>
 <br>
 <br>
-
+<br>
 
 ## The Java Adventure
 
@@ -344,7 +395,7 @@ Then I knew, this is it. This is the subject.
 <br>
 <br>
 <br>
-
+<br>
 
 ## ipsum aquia vitae
 
