@@ -158,30 +158,19 @@ So instead, databases communicate in their own way and programming languages in 
 
 ### the code
 
-Two packages will be imported:
+First, Three packages will be imported:
 
 ``` javascript
 import java.sql.Connection;
-import java.sql.DriverManager;    
+import java.sql.DriverManager;
+import java.sql.SQLException;  
+...  
 ```
 <br>
 
-Without a main method, no program (in nearly all cases). Here, the method will reside in the program's java file "JavaToDatabaseConnect".
-
-``` javascript
-public class JavaToDatabaseConnect {
-    
-    public static void main(String[] args) {
-    
-    ...
-    	
- 	}
-}  
-```
-
-<br>
-
-It's always nice to see that the code compiles properly. Therefore is the first statement a println-message.     
+...and without a main method, in nearly all cases no program. Here, the method resides in the program's "JavaToDatabaseConnect.java".
+ 
+The program's first statement will be println-message. It's always nice to check that the code compiles properly.  
 
 ``` javascript
 public class JavaToDatabaseConnect {
@@ -189,20 +178,24 @@ public class JavaToDatabaseConnect {
     public static void main(String[] args) {
     
         System.out.println("An embedded Derby driver exemple. The program compiles.");  
-    ...
-    	
- 	}
+        
+        ...    	
+	}
 }  
 ```
 
 <br>
 
-...alltogether will the program have three messages.
+...alltogether, will the program show three messages.
+
+<br>
+
 ![a database connection message](/images/connectionmessage.jpg)
 
 <br>
 
-But back to the code, the next four statements concerns 
+But back to the code, the next four statements concerns    
+```
 
 <br>
 <br>
