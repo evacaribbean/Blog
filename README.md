@@ -50,11 +50,13 @@
 <br>
 <br>
 <br>
+<br>
  
 ## A Do Re Mi Fa Sol La App 
 
 ...
 
+<br>
 <br>
 <br>
 <br>
@@ -105,7 +107,9 @@ The application’s single coding part that has to be added is the two event han
 
 <br>
 <br>
+<br>
 <br> 
+<br>
 <br>
 <br>
 <br>
@@ -121,11 +125,13 @@ The application’s single coding part that has to be added is the two event han
 <br>
 <br>
 <br>
+<br>
 
 ## CRUD 1 
 
 ...
 
+<br>
 <br>
 <br>
 <br>
@@ -202,7 +208,7 @@ But back to the code, the next five statements are the connection variables and 
 ```
 <br>
 
-Now the connection variables can be invoked (called upon) by the statements, with the forName-method and the getConnection-method. 
+Now the connection variables can be invoked (called upon) by the statements, containing the forName-method and the getConnection-method. 
 
 ``` javascript 
         ...
@@ -214,7 +220,7 @@ Now the connection variables can be invoked (called upon) by the statements, wit
 
 <br>
 
-But as  
+But as these methods are risky they have to be surrounded with try-catch blocks (the connection can break or in other ways not pass).    
 
 ``` javascript 
         ...
@@ -245,6 +251,8 @@ But as
 <br>
 <br>
 <br>
+<br>
+<br>
 
 ## Input Directly Through the Console  
 
@@ -257,11 +265,13 @@ But as
 <br>
 <br>
 <br>
+<br>
 
 ## Input Output  
 
 ...
 
+<br>
 <br>
 <br>
 <br>
@@ -417,6 +427,7 @@ text...
 <br>
 <br>
 <br>
+<br>
 
 ## The Java Adventure
 
@@ -426,6 +437,7 @@ But nop! It is with such delight I´ve been reading books, enjoy Internet videos
 
 Then I knew, this is it. This is the subject. 
 
+<br>
 <br>
 <br>
 <br>
