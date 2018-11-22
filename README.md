@@ -193,7 +193,7 @@ public class JavaToDatabaseConnect {
 But back to the code, the next five statements are the connection variables and their assigned values.    
 
 ``` javascript 
-		...        
+		...       
         Connection JavaToDatabaseConnect = null; 
         String url = "jdbc:derby:croddDb"; 
         String driver = "org.apache.derby.jdbc.EmbeddedDriver";   
