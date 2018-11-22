@@ -158,7 +158,7 @@ So instead, databases communicate in their own way and programming languages in 
 
 ### the code
 
-First, Three packages will be imported:
+First, three packages will be imported:
 
 ``` javascript
 import java.sql.Connection;
@@ -168,14 +168,14 @@ import java.sql.SQLException;
 ```
 <br>
 
-...and without a main method, no program (in nearly all cases). The method resides in the program's "JavaToDatabaseConnect.java". And the program's first statement will be a println-message (it's always nice to check that the code compiles properly).  
+...and without a main method, no program (in nearly all cases). The method resides in the program's "JavaToDatabaseConnect.java". And its first statement will be a println-message (it's always nice to check that the code compiles properly).  
 
 ``` javascript
 public class JavaToDatabaseConnect {
 
     public static void main(String[] args) {
     
-        System.out.println("An embedded Derby driver exemple. The program compiles.");  
+        System.out.println("An embedded Derby driver example. The program compiles.");  
         
         ...    	
 	}
@@ -199,9 +199,7 @@ But back to the code, the next five statements are the connection variables and 
         String driver = "org.apache.derby.jdbc.EmbeddedDriver";   
         String user = "user";
         String password = "password";  
-        ...    	
- 	}
-}  
+		...    	 
 ```
 <br>
 
