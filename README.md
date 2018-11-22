@@ -168,9 +168,7 @@ import java.sql.SQLException;
 ```
 <br>
 
-...and without a main method, in nearly all cases no program. Here, the method resides in the program's "JavaToDatabaseConnect.java".
- 
-The program's first statement will be println-message. It's always nice to check that the code compiles properly.  
+...and without a main method, no program (in nearly all cases). The method resides in the program's "JavaToDatabaseConnect.java". And the program's first statement will be a println-message (it's always nice to check that the code compiles properly).  
 
 ``` javascript
 public class JavaToDatabaseConnect {
@@ -186,15 +184,34 @@ public class JavaToDatabaseConnect {
 
 <br>
 
-...alltogether, will the program show three messages.
-
-<br>
+...alltogether, the program will show three messages.
 
 ![a database connection message](/images/connectionmessage.jpg)
 
 <br>
 
-But back to the code, the next four statements concerns    
+But back to the code, the next five statements are the connection variables and their assigned values.    
+
+``` javascript 
+		...        
+        Connection JavaToDatabaseConnect = null; 
+        String url = "jdbc:derby:croddDb"; 
+        String driver = "org.apache.derby.jdbc.EmbeddedDriver";   
+        String user = "user";
+        String password = "password";  
+        ...    	
+ 	}
+}  
+```
+<br>
+
+Next
+
+``` javascript 
+		...        
+        Co    	
+ 	}
+}  
 ```
 
 <br>
