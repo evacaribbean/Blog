@@ -234,13 +234,14 @@ But when calling a risky method it has to be surrounded with try-catch block (ju
         } 
         
         finally {
-            try {
+        	try {
                 conn.close();
                 System.out.println("The connection is closed.");
             } catch (SQLException e) {
                 System.err.println(e); 
             }
         } 
+        ...
 ```
 
 <br>
