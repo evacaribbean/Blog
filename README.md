@@ -202,15 +202,45 @@ But back to the code, the next five statements are the connection variables and 
 ```
 <br>
 
-Next
+Now the connection variables can be invoked (called upon) by the statements, with the forName-method and the getConnection-method. 
 
 ``` javascript 
-		...        
-        Co    	
- 	}
-}  
+        ...
+        try {
+            Class.forName(driver).newInstance();
+            conn = DriverManager.getConnection(url, user, password); 
+        ...                
 ```
 
+<br>
+
+But as  
+
+``` javascript 
+        ...
+        try {
+            Class.forName(driver).newInstance();
+            conn = DriverManager.getConnection(url, user, password); 
+            
+            if (conn != null) {
+                System.out.println("Wazzaiiupppp! Jaour'On !");
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        } 
+
+        finally {
+            try {
+                conn.close();
+                System.out.println("The connection is closed.");
+            } catch (SQLException e) {
+                e.printStackTrace();
+            }
+        } 
+```
+
+<br>
+<br>
 <br>
 <br>
 <br>
