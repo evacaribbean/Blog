@@ -220,29 +220,25 @@ Now the connection variables can be invoked (called upon) by the statements, con
 
 <br>
 
-But when calling a risky method it has to be surrounded with try-catch block (just as with imports, the IDE will also give suggestions about try-catch blocks and throws clauses). As the Java code can be allright, but the connection not for other reasons.
-
-Below there's one error because    
+But when calling a risky method it has to be surrounded with try-catch block (just as with imports, the IDE will also give suggestions about try-catch blocks and throws clauses). As the Java code can be allright, but the connection not (for other reasons).
 
 ``` javascript 
         ...
         try {
             Class.forName(driver).newInstance();
             conn = DriverManager.getConnection(url, user, password); 
-            
-            if (conn != null) {
-                System.out.println("Wazzaiiupppp! Jaour'On !");
-            }
+
+            System.out.println("Wazzaiiupppp! Jaour'On !");         
         } catch (Exception e) {
             e.printStackTrace();
         } 
-
+        
         finally {
             try {
                 conn.close();
                 System.out.println("The connection is closed.");
             } catch (SQLException e) {
-                e.printStackTrace();
+                System.err.println(e); 
             }
         } 
 ```
