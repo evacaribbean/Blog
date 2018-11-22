@@ -138,13 +138,11 @@ Now it was time. In the evening I swam up to the surface for air again and to se
 
 ### JDBC
 
-More clearly I could now ask and answer myself, on how to connect java applications to databases.  
+More clearly I could now ask and answer myself, on how to connect java applications to databases. When you know, it’s simple easy. And well, when not knowing of course it’s the reverse.
 
-When you know, it’s really easy. And when not knowing, of course it’s the reverse.
+Even in a computer’s world every language needs to be interpreted if different machines and systems should be able to understand each other. One could switch of course, talking the language that applies for the moment. But is it realistic?
 
-Even in a computer’s world every language needs to be interpreted, if different kind of machines and systems should be able to understand each other. One could switch of course, talking the language that applies for the moment. But is it realistic?
-
-So instead, have databases their own way in talking and programming languages theirs. And the interpreter translates between the two. The interpreter’s name is “Java Database Connectivity”. It’s an application programming interface. And to make the two connect, it uses its JDBC drivers. 
+So instead, databases communicate in their own way and programming languages theirs. And the interpreter translates between the two. The interpreter’s name is “Java Database Connectivity”. It’s an application programming interface. And to make the two connect, it uses its JDBC drivers. 
 
 Below two practical examples: 
 
