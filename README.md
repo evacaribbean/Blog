@@ -166,7 +166,7 @@ So instead, databases communicate in their own way and programming languages in 
 
 First. Tree packages will be imported. 
 
-Well, when coding within an IDE the platform will give the suggestions needed. By for example the `connection` and `DriverManager` part, a tool window following along to show libraries with supportive coding alternatives.    
+Well, when coding within an IDE the platform will give the suggestions needed. By for example the `Connection` and `DriverManager` part, a tool window will show libraries with supportive coding alternatives.    
 
 ``` javascript
 import java.sql.Connection;
@@ -176,7 +176,7 @@ import java.sql.SQLException;
 ```
 <br>
 
-Next. Without a main method, no program (in nearly all cases). This program's  main method resides in our one file `JavaToDatabaseConnect.java`. And the first statement will be a println-message (it's always nice to check that the code compiles properly).  
+Next. Without a main method, no program (in nearly all cases). This program's  main method resides in our one file `JavaToDatabaseConnect.java`. The first statement will be a println-message (it's always nice to check that the code compiles properly).  
 
 ``` javascript
 public class JavaToDatabaseConnect {
@@ -191,13 +191,7 @@ public class JavaToDatabaseConnect {
 
 <br>
 
-(the program will show three messages, alltogether)
-
-![a database connection message](/images/connectionmessage.jpg)
-
-<br>
-
-So come four statements, that handle the connection variables and their assigned values.    
+...and then the four statements that handle the connection variables and their assigned values.    
 
 ``` javascript 
         ...      
@@ -286,6 +280,8 @@ public class JavaToDatabaseConnect {
     }      
 }
 ```
+
+![a database connection message](/images/connectionmessage.jpg)
 
 <br>
 <br>
