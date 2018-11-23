@@ -209,7 +209,7 @@ Now the connection variables can be invoked (called upon). And a println-message
 
 Here the getConnection method gets the url, user and password. Assisted by its DriverManager class, and the variable `connection` is assigned.
 
-(in older versions of Java it would have been necessary to load the driver by using `Class.forName();` or `DriverManager.registerDriver();`). 
+(in older versions of Java it would have been necessary to also load the driver, by using `Class.forName();` or `DriverManager.registerDriver();`). 
 
 ``` javascript 
         ...
