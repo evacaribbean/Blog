@@ -207,9 +207,9 @@ It's time!
 
 Now the connection variables can be invoked (called upon). And a println-message sent when the program runs.
 
-Here the getConnection method gets the url, user and password. Assisted by its DriverManager class, and the variable `connection` is assigned.
+Here the getConnection method gets the `url`, `user` and `password`. Assisted by its DriverManager class, and the variable `connection` is assigned.
 
-(in older versions of Java it would have been necessary to also load the driver, by using `Class.forName();` or `DriverManager.registerDriver();`). 
+(in older Java versions it would have been necessary to also load the driver, by using `Class.forName();` or `DriverManager.registerDriver();`). 
 
 ``` javascript 
         ...
@@ -221,7 +221,7 @@ Here the getConnection method gets the url, user and password. Assisted by its D
 
 <br>
 
-...and when calling risky methods they have to be surrounded with try-catch block (just as with imports, the IDE will also give suggestions about try-catch blocks and throws clauses). As the Java code can be allright, but the connection not (for other reasons).
+...and when calling risky methods they have to be surrounded with try-catch block (just as with imports, the IDE will also give suggestions on try-catch blocks and throws clauses). As the Java code can be allright, even without an ok connection.
 
 ``` javascript 
         ...
@@ -245,7 +245,7 @@ Here the getConnection method gets the url, user and password. Assisted by its D
 <br>
 <br>
 
-... 
+<!--The whole 🐬 🐋 file 🐠..  🐳... --> 
 
 ``` javascript 
 package Connections;
