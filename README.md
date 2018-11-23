@@ -183,7 +183,7 @@ public class JavaToDatabaseConnect {
 
     public static void main(String[] args) {
     
-        System.out.println("An embedded Derby driver example. The program compiles.");          
+        System.out.println("An network Derby driver example. The program compiles.");          
         ...    	
 	}
 }  
@@ -284,7 +284,7 @@ public class JavaToDatabaseConnect {
 
 <br>
 
-![a database connection message](/images/connectionmessage.jpg)
+![a database connection message](/images/connectionmessage-network.jpg)
 
 <br>
 <br>
