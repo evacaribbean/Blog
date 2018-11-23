@@ -166,7 +166,7 @@ So instead, databases communicate in their own way and programming languages in 
 
 First. Tree packages will be imported. 
 
-Well, when coding
+Well, when coding within an IDE the platform will give the suggestions needed. By for example the `connection` and `DriverManager` part, a tool window following along to show libraries with supportive coding alternatives.    
 
 ``` javascript
 import java.sql.Connection;
@@ -176,7 +176,7 @@ import java.sql.SQLException;
 ```
 <br>
 
-...and without a main method, no program (in nearly all cases). The method resides in the program's "JavaToDatabaseConnect.java". And its first statement will be a println-message (it's always nice to check that the code compiles properly).  
+Next. Without a main method, no program (in nearly all cases). This program's  main method resides in our one file `JavaToDatabaseConnect.java`. And the first statement will be a println-message (it's always nice to check that the code compiles properly).  
 
 ``` javascript
 public class JavaToDatabaseConnect {
@@ -191,37 +191,43 @@ public class JavaToDatabaseConnect {
 
 <br>
 
-...alltogether, the program will show three messages.
+(the program will show three messages, alltogether)
 
 ![a database connection message](/images/connectionmessage.jpg)
 
 <br>
 
-But back to the code, the next five statements are the connection variables and their assigned values.    
+So come four statements, that handle the connection variables and their assigned values.    
 
 ``` javascript 
         ...      
-        Connection JavaToDatabaseConnect = null; 
-        String url = "jdbc:derby://localhost:1527/JavaToDatabase";    
-        String user = "auser";
-        String password = "apassword";  
+        Connection connection = null; 
+        String url = "jdbc:derby://localhost:1527/Ocean";    
+        String user = "a-user";
+        String password = "a-password";  
         ...   	 
 ```
 <br>
 
-Now the connection variables can be invoked (called upon) by the statements, containing the forName-method and the getConnection-method. 
+It's time! 
+
+Now the connection variables can be invoked (called upon). And a println-message sent when the program runs.
+
+Here the getConnection method gets the url, user and password. Assisted by its DriverManager class, and the variable `connection` is assigned.
+
+In elder versions of Java it would have been necessary to load the driver (by using `Class.forName();` or `DriverManager.registerDriver();`). But this is a later version. 
 
 ``` javascript 
         ...
         try { 
-            conn = DriverManager.getConnection(url, user, password);
+            connection = DriverManager.getConnection(url, user, password);
             System.out.println("Wazzaiiupppp! Jaour'On !"); 
         ...                
 ```
 
 <br>
 
-But when calling a risky method it has to be surrounded with try-catch block (just as with imports, the IDE will also give suggestions about try-catch blocks and throws clauses). As the Java code can be allright, but the connection not (for other reasons).
+...and when calling risky methods they have to be surrounded with try-catch block (just as with imports, the IDE will also give suggestions about try-catch blocks and throws clauses). As the Java code can be allright, but the connection not (for other reasons).
 
 ``` javascript 
         ...
@@ -240,6 +246,45 @@ But when calling a risky method it has to be surrounded with try-catch block (ju
             System.err.println(eq);
         } 
         ...
+```
+
+<br>
+
+Below the whole file. 
+
+``` javascript 
+package Connections;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+
+ 
+public class JavaToDatabaseConnect {
+    
+    public static void main(String[] args) {
+        System.out.println("An embedded Derby example. The program compiles.");
+        
+        Connection connection = null; 
+        String url = "jdbc:derby://localhost:1527/Ocean";        
+        String user = "a-user";
+        String password = "a-password"; 
+
+        try {   
+            connection = DriverManager.getConnection( url, user, password);
+            System.out.println("Wazzaiiupppp! Jaour'On !");
+        } catch(Exception e) {
+            e.printStackTrace();
+        }
+
+        try {
+            connection.close();
+            System.out.println("The connection is closed.");
+        } catch (SQLException eq) {
+            System.err.println(eq);
+        }
+    }      
+}
 ```
 
 <br>
