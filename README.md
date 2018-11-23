@@ -164,7 +164,8 @@ So instead, databases communicate in their own way and programming languages in 
 
 ### the code
 
-First, three packages will be imported:
+First. Tree packages will be imported. 
+Well, when coding
 
 ``` javascript
 import java.sql.Connection;
@@ -233,7 +234,7 @@ But when calling a risky method it has to be surrounded with try-catch block (ju
         try {
             connection.close();
             System.out.println("The connection is closed.");
-            
+
         } catch (SQLException eq) {
             System.err.println(eq);
         } 
