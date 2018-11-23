@@ -144,7 +144,7 @@ The application’s single coding part that has to be added is the two event han
 
 I eagerly wanted to come to the point where I could start to explore the sea more than focus on how to swim. So many questions, and each in its turn had its own life and worlds of wonder. So fun, interesting and in good ways challenging.
 
-And one morning, though not swimming like the seals but friends now, I saw a glimpse! Of beacons, islands, waves, its ocean floor, and sky with wind. 
+One morning, though not swimming like the seals but friends now, I saw a glimpse! Of beacons, islands, waves, its ocean floor, and sky with wind. 
 
 Now it was time. In the evening I swam up to the surface for air again and to see, had I really understood? These glimpses, could it be? That at night, also the sky wore light? …and…they were there! The stars!
 
@@ -200,10 +200,9 @@ But back to the code, the next five statements are the connection variables and 
 ``` javascript 
         ...      
         Connection JavaToDatabaseConnect = null; 
-        String url = "jdbc:derby:croddDb"; 
-        String driver = "org.apache.derby.jdbc.EmbeddedDriver";   
-        String user = "user";
-        String password = "password";  
+        String url = "jdbc:derby://localhost:1527/JavaToDatabase";    
+        String user = "auser";
+        String password = "apassword";  
         ...   	 
 ```
 <br>
@@ -212,9 +211,9 @@ Now the connection variables can be invoked (called upon) by the statements, con
 
 ``` javascript 
         ...
-        try {
-            Class.forName(driver).newInstance();
-            conn = DriverManager.getConnection(url, user, password); 
+        try { 
+            conn = DriverManager.getConnection(url, user, password);
+            System.out.println("Wazzaiiupppp! Jaour'On !"); 
         ...                
 ```
 
@@ -224,22 +223,19 @@ But when calling a risky method it has to be surrounded with try-catch block (ju
 
 ``` javascript 
         ...
-        try {
-            Class.forName(driver).newInstance();
-            conn = DriverManager.getConnection(url, user, password); 
+        try { 
+            conn = DriverManager.getConnection(url, user, password);
+            System.out.println("Wazzaiiupppp! Jaour'On !");       
 
-            System.out.println("Wazzaiiupppp! Jaour'On !");         
-        } catch (Exception e) {
+        } catch(Exception e) {
             e.printStackTrace();
-        } 
-        
-        finally {
-        	try {
-                conn.close();
-                System.out.println("The connection is closed.");
-            } catch (SQLException e) {
-                System.err.println(e); 
-            }
+        }
+        try {
+            connection.close();
+            System.out.println("The connection is closed.");
+            
+        } catch (SQLException eq) {
+            System.err.println(eq);
         } 
         ...
 ```
