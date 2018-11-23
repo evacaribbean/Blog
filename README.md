@@ -243,8 +243,9 @@ In elder versions of Java it would have been necessary to load the driver (by us
 ```
 
 <br>
+<br>
 
-Below the whole file. 
+... 
 
 ``` javascript 
 package Connections;
@@ -280,6 +281,8 @@ public class JavaToDatabaseConnect {
     }      
 }
 ```
+
+<br>
 
 ![a database connection message](/images/connectionmessage.jpg)
 
