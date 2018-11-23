@@ -183,7 +183,7 @@ public class JavaToDatabaseConnect {
 
     public static void main(String[] args) {
     
-        System.out.println("An network Derby driver example. The program compiles.");          
+        System.out.println("A network Derby driver example. The program compiles.");          
         ...    	
 	}
 }  
@@ -258,7 +258,7 @@ import java.sql.SQLException;
 public class JavaToDatabaseConnect {
     
     public static void main(String[] args) {
-        System.out.println("An embedded Derby example. The program compiles.");
+        System.out.println("A network Derby example. The program compiles.");
         
         Connection connection = null; 
         String url = "jdbc:derby://localhost:1527/Ocean";        
@@ -266,7 +266,7 @@ public class JavaToDatabaseConnect {
         String password = "a-password"; 
 
         try {   
-            connection = DriverManager.getConnection( url, user, password);
+            connection = DriverManager.getConnection(url, user, password);
             System.out.println("Wazzaiiupppp! Jaour'On !");
         } catch(Exception e) {
             e.printStackTrace();
