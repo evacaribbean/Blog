@@ -21,6 +21,7 @@
 - [A Module App Word Caser with Swing](https://github.com/evacaribbean/Blog#a-module-app-word-caser-with-swing)
 - [CRUD 2](https://github.com/evacaribbean/Blog#)
 - [CRUD 1](https://github.com/evacaribbean/Blog#)
+- [DB2](https://github.com/evacaribbean/Blog#)
 - [A Database Connected](https://github.com/evacaribbean/Blog#a-database-connected)
 
 <br>
@@ -127,7 +128,20 @@ The application’s single coding part that has to be added is the two event han
 <br>
 <br>
 
-## CRUD 1 
+## CRUD 1
+
+...
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+## DB2 
 
 ...
 
@@ -176,7 +190,7 @@ import java.sql.SQLException;
 ```
 <br>
 
-Next. Without a main method, no program (in nearly all cases). This program's  main method resides in one file `JavaToDatabaseConnect.java`. The first statement will be a println-message (it's always nice to check that the code compiles properly).  
+Next. Without a main method, no program (in nearly all cases). This program's  main method resides in one file. `JavaToDatabaseConnect.java`. The first statement will be a println-message (it's always nice to check that the code compiles properly).  
 
 ``` javascript
 public class JavaToDatabaseConnect {
@@ -209,7 +223,7 @@ Now the connection variables can be invoked (called upon). And a println-message
 
 Here the getConnection method gets the `url`, `user` and `password`, assisted by its DriverManager class. And the variable `connection` is assigned.
 
-(in older Java versions it would have been necessary to also load the driver, by using `Class.forName();` or `DriverManager.registerDriver();`). 
+(in older Java versions it would have been necessary to also register the driver, by using `Class.forName();` or `DriverManager.registerDriver();`). 
 
 ``` javascript 
         ...
@@ -221,7 +235,7 @@ Here the getConnection method gets the `url`, `user` and `password`, assisted by
 
 <br>
 
-Finally. When calling risky methods they have to be surrounded with try-catch blocks (the IDE will also give suggestions on try-catch blocks and throws clauses). As the Java code can be allright, even without an ok connection.
+Finally. When calling risky methods they have to be surrounded with try-catch blocks (the IDE will give suggestions on try-catch blocks and also throws clauses). As the Java code can be allright, even without an ok connection.
 
 ``` javascript 
         ...
