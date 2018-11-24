@@ -166,7 +166,7 @@ So instead, databases communicate in their own way and programming languages in 
 
 First. Tree packages will be imported. 
 
-Well, when coding within an IDE the platform will give the suggestions needed. By for example the `Connection` and `DriverManager` part, a tool window will show libraries with supportive coding alternatives.    
+Well, when coding within an IDE the platform will give the suggestions needed. By the `Connection` and `DriverManager` parts for example, a tool window will show libraries with supportive coding alternatives.    
 
 ``` javascript
 import java.sql.Connection;
@@ -176,7 +176,7 @@ import java.sql.SQLException;
 ```
 <br>
 
-Next. Without a main method, no program (in nearly all cases). This program's  main method resides in our one file `JavaToDatabaseConnect.java`. The first statement will be a println-message (it's always nice to check that the code compiles properly).  
+Next. Without a main method, no program (in nearly all cases). This program's  main method resides in one file `JavaToDatabaseConnect.java`. The first statement will be a println-message (it's always nice to check that the code compiles properly).  
 
 ``` javascript
 public class JavaToDatabaseConnect {
@@ -205,9 +205,9 @@ public class JavaToDatabaseConnect {
 
 It's time! 
 
-Now the connection variables can be invoked (called upon). And a println-message sent when the program runs.
+Now the connection variables can be invoked (called upon). And a println-message sent, when the program runs.
 
-Here the getConnection method gets the `url`, `user` and `password`. Assisted by its DriverManager class, and the variable `connection` is assigned.
+Here the getConnection method gets the `url`, `user` and `password`, assisted by its DriverManager class. And the variable `connection` is assigned.
 
 (in older Java versions it would have been necessary to also load the driver, by using `Class.forName();` or `DriverManager.registerDriver();`). 
 
@@ -221,7 +221,7 @@ Here the getConnection method gets the `url`, `user` and `password`. Assisted by
 
 <br>
 
-...and when calling risky methods they have to be surrounded with try-catch block (just as with imports, the IDE will also give suggestions on try-catch blocks and throws clauses). As the Java code can be allright, even without an ok connection.
+Finally. When calling risky methods they have to be surrounded with try-catch blocks (the IDE will also give suggestions on try-catch blocks and throws clauses). As the Java code can be allright, even without an ok connection.
 
 ``` javascript 
         ...
@@ -245,6 +245,7 @@ Here the getConnection method gets the `url`, `user` and `password`. Assisted by
 <br>
 <br>
 
+...
 <!--The whole 🐬 🐋 file 🐠..  🐳... --> 
 
 ``` javascript 
