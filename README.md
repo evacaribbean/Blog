@@ -153,7 +153,7 @@ Now it was time. In the evening I swam up to the surface for air again and to se
 
 ### JDBC
 
-More clearly I could now ask and answer myself, on how to connect java applications to databases. When you know, it’s simple easy. And well, when not knowing of course it’s the reverse.
+More clearly I saw and could now answer myself, on how to connect java applications to databases. When you know, it’s simple easy. And well, when not knowing of course it’s the reverse.
 
 Even in a computer’s world every language needs to be interpreted if different machines and systems should be able to understand each other. One could switch of course, talking the language that applies for the moment. But is it realistic?
 
