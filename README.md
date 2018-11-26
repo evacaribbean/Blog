@@ -265,9 +265,7 @@ Before running the program a few steps has to be taken in the IDE. In turn, crea
 
 The new project starts in the IDE. Create a new package (or subfolder, depending on IDE) named `Connection` within the `Source Packages` (or src-folder).
 
-And right-click Libraries folder > Add JAR/Folder... > to import `derby.jar` (it resides default in the current JDK, that also the IDE uses).
-
-In IntelliJ the `derby.jar` is imported by choosing: File Menu | Project Structure... > Modules > Dependencies > + > "JARs or Directories..." > `derby.jar`.
+And right-click Libraries folder > Add JAR/Folder... > to import `derby.jar` (it resides default in the current JDK, that also the IDE uses). In IntelliJ the `derby.jar` is imported by choosing: File Menu | Project Structure... > Modules > Dependencies > + > "JARs or Directories..." > `derby.jar`.
 
 
 <!-- That's all 🐠 🐳...  mysql embedded -->
