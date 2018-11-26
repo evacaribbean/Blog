@@ -280,7 +280,7 @@ The new project opens in the IDE.
 
 Create a new package (or subfolder, depending on IDE) within the `Source Packages` (or src-folder), named `Connection` &nbsp;&nbsp;> &nbsp;&nbsp;right-click Libraries folder &nbsp;&nbsp;> &nbsp;&nbsp;Add JAR/Folder... &nbsp;&nbsp;> &nbsp;&nbsp;to import `derby.jar` (it resides default in the current JDK, that also the IDE uses). 
 
-In IntelliJ the `derby.jar` is imported by choosing: File Menu | Project Structure... &nbsp;&nbsp;> &nbsp;&nbsp;Modules &nbsp;&nbsp;> &nbsp;&nbsp;Dependencies &nbsp;&nbsp;> &nbsp;&nbsp;+ &nbsp;&nbsp;> &nbsp;&nbsp;"JARs or Directories..." &nbsp;&nbsp;> &nbsp;&nbsp;`derby.jar`.
+In IntelliJ the `derby.jar` is imported by choosing: &nbsp;&nbsp;File Menu | Project Structure... &nbsp;&nbsp;> &nbsp;&nbsp;Modules &nbsp;&nbsp;> &nbsp;&nbsp;Dependencies &nbsp;&nbsp;> &nbsp;&nbsp;+ &nbsp;&nbsp;> &nbsp;&nbsp;"JARs or Directories..." &nbsp;&nbsp;> &nbsp;&nbsp;`derby.jar`.
 
 <br>
 
