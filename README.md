@@ -143,7 +143,7 @@ The application’s single coding part that has to be added is the two event han
 
 ## Different Database Connections 
 
-In [previous](https://github.com/evacaribbean/Blog#a-database-connected) blog post a Java DB (Derby) *network* JDBC driver was used to connect to an Apache's Derby database. Below an *embedded* Derby JDBC driver will be used to connect to the same database. And last, a connection showing how to connect a MySQL database, using a network JDBC driver.
+In [previous](https://github.com/evacaribbean/Blog#a-database-connected) blog post a Java DB (Derby) *network* JDBC driver was used to connect to an Apache's Derby database. Below is an *embedded* Derby JDBC driver used to connect to the same database. And thereafter a connection showing how to connect to a MySQL database, using a network JDBC driver.
 
 <br>
 <br>
