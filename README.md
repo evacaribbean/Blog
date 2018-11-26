@@ -274,7 +274,7 @@ Finally. When calling risky methods they have to be surrounded with try-catch bl
  
 Below the whole 🐬 🐋 Java file. 
 
-Before running the program a few steps has to be taken in the IDE. In turn, create a New Project  >  (skip creating a main class, as the method already exists in the java file)  >  Name the project: `JavaToDatabaseConnect.java`. 
+Before running the program a few steps has to be taken in the IDE. In turn, create a New Project &nbsp;>  (skip creating a main class, as the method already exists in the java file)  >  Name the project: `JavaToDatabaseConnect.java`. 
 
 The new project opens in the IDE. 
 
