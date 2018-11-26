@@ -180,7 +180,9 @@ So instead, databases communicate in their own way and programming languages in 
 
 First. Tree packages will be imported. 
 
-Well, when coding within an IDE the platform will give the suggestions needed. By the `Connection` and `DriverManager` parts for example, a tool window will show libraries with supportive coding alternatives.    
+Well, when coding within an IDE the platform will give the suggestions needed. By the `Connection` and `DriverManager` parts for example, a tool window will show libraries with supportive coding alternatives. 
+
+<br>   
 
 ``` javascript
 import java.sql.Connection;
@@ -205,6 +207,7 @@ public class JavaToDatabaseConnect {
 ```
 
 <br>
+<br>
 
 ...and then the four statements that handle the connection variables and their assigned values.    
 
@@ -216,6 +219,7 @@ public class JavaToDatabaseConnect {
         String password = "a-password";  
         ...   	 
 ```
+<br>
 <br>
 
 It's time! 
@@ -234,6 +238,7 @@ Here the getConnection method gets the `url`, `user` and `password`, assisted by
         ...                
 ```
 
+<br>
 <br>
 
 Finally. When calling risky methods they have to be surrounded with try-catch blocks (the IDE will give suggestions on try-catch blocks and also throws clauses). As the Java code can be allright, even without an ok connection.
