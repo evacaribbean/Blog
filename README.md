@@ -161,24 +161,65 @@ Especially data that's stored in a relational db.
 <br>
 <br>
 
-...  <!-- Connection with an embedded Derby JDBC driver -->
+### using the embedded driver to connect
+
+First just the url statement, that is the only statement that differs. Next the whole code file with added driver statements toggled (if earlier versions are in use).
 
 <br>
 
 ``` javascript
-        ...
-        Connection conn = null;        
-        String url = "jdbc:derby:Ocean"; 
-     
-        try {  
-            conn = DriverManager.getConnection(url);
-            System.out.println("Wazzaiiupppp! Jaour'On !");
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
+        ...        
+        String url = "jdbc:derby:Ocean";  
         ...
 ```
 
+<br>
+
+``` javascript 
+package Connections;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+
+ 
+public class JavaToDatabaseConnect {
+    
+    public static void main(String[] args) {
+        System.out.println("A network Derby example. The program compiles.");
+        
+        Connection connection = null; 
+        //String driver = "org.apache.derby.jdbc.EmbeddedDriver";  
+        String url = "jdbc:derby:Ocean"; 
+
+        try {
+            //Class.forName(driver); //.newInstance(); 
+            connection = DriverManager.getConnection(url);
+            System.out.println("Wazzaiiupppp! Jaour'On !");
+        } catch(Exception e) {
+            e.printStackTrace();
+        }
+
+        try {
+            connection.close();
+            System.out.println("The connection is closed.");
+        } catch (SQLException eq) {
+            System.err.println(eq);
+        }
+    }      
+}
+```
+
+<br>
+
+...
+
+<br>
+<br>
+
+### using the network driver to connect to an MySQL database
+
+...
 
 
 <br>
@@ -310,13 +351,13 @@ Finally. When calling risky methods they have to be surrounded with try-catch bl
  
 Below the whole 🐬 🐋 Java file. 
 
-Before running the program a few steps has to be taken in the IDE. In turn, create a New Project &nbsp;&nbsp;> &nbsp;&nbsp;(skip creating a main class, as the method already exists in the java file) &nbsp;&nbsp;> &nbsp;&nbsp;Name the project: `JavaToDatabaseConnect.java`. 
+Before running the program a few steps has to be taken in the IDE. In turn, create a New Project &nbsp;&nbsp;⇒ &nbsp;&nbsp;(skip creating a main class, as the method already exists in the java file) &nbsp;&nbsp;⇒ &nbsp;&nbsp;Name the project: `JavaToDatabaseConnect.java`. 
 
-The new project opens in the IDE. ⇒
+The new project opens in the IDE. 
 
-Create a new package (or subfolder, depending on IDE) within the `Source Packages` (or `src` folder), named `Connection` &nbsp;&nbsp;> &nbsp;&nbsp;right-click `Libraries` &nbsp;&nbsp;> &nbsp;&nbsp;`Add JAR/Folder...` &nbsp;&nbsp;> &nbsp;&nbsp;to import `derby.jar` (it resides default in the current JDK, that the IDE also uses). 
+Create a new package (or subfolder, depending on IDE) within the `Source Packages` (or `src` folder), named `Connection` &nbsp;&nbsp;⇒ &nbsp;&nbsp;right-click `Libraries` &nbsp;&nbsp;⇒ &nbsp;&nbsp;`Add JAR/Folder...` &nbsp;&nbsp;⇒ &nbsp;&nbsp;to import `derby.jar` (it resides default in the current JDK, that the IDE also uses). 
 
-In IntelliJ the `derby.jar` is imported by choosing: &nbsp;&nbsp;File Menu | `Project Structure...` &nbsp;&nbsp;> &nbsp;&nbsp;`Modules` &nbsp;&nbsp;> &nbsp;&nbsp;`Dependencies` &nbsp;&nbsp;> &nbsp;&nbsp;`+` &nbsp;&nbsp;> &nbsp;&nbsp;`JARs or Directories...` &nbsp;&nbsp;> &nbsp;&nbsp;`derby.jar`.
+In IntelliJ the `derby.jar` is imported by choosing: &nbsp;&nbsp;File Menu | `Project Structure...` &nbsp;&nbsp;⇒ &nbsp;&nbsp;`Modules` &nbsp;&nbsp;⇒ &nbsp;&nbsp;`Dependencies` &nbsp;&nbsp;⇒ &nbsp;&nbsp;`+` &nbsp;&nbsp;⇒ &nbsp;&nbsp;`JARs or Directories...` &nbsp;&nbsp;⇒ &nbsp;&nbsp;`derby.jar`.
 
 
 <br>
