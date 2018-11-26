@@ -167,7 +167,7 @@ Now it was time. In the evening I swam up to the surface for air again and to se
 
 ### JDBC
 
-More clearly I saw and could now answer myself, on how to connect java applications to databases. When you know, it’s simple easy. And well, when not knowing of course it’s the reverse.
+More clearly I saw and could now answer myself, on how to connect java applications to databases. And further. When you know, it’s simple easy. And well, when not knowing of course it’s the reverse.
 
 Even in a computer’s world every language needs to be interpreted if different machines and systems should be able to understand each other. One could switch of course, talking the language that applies for the moment. But is it realistic?
 
@@ -199,7 +199,7 @@ public class JavaToDatabaseConnect {
     
         System.out.println("A network Derby driver example. The program compiles.");          
         ...    	
-	}
+    }
 }  
 ```
 
@@ -223,7 +223,7 @@ Now the connection variables can be invoked (called upon). And a println-message
 
 Here the getConnection method gets the `url`, `user` and `password`, assisted by its DriverManager class. And the variable `connection` is assigned.
 
-(in older Java versions it would have been necessary to also register the driver, by using `Class.forName();` or `DriverManager.registerDriver();`). 
+(in older Java versions it would have been necessary to also register the driver, by using `Class.forName()` or `DriverManager.registerDriver()`). 
 
 ``` javascript 
         ...
@@ -241,15 +241,14 @@ Finally. When calling risky methods they have to be surrounded with try-catch bl
         ...
         try { 
             conn = DriverManager.getConnection(url, user, password);
-            System.out.println("Wazzaiiupppp! Jaour'On !");       
-
+            System.out.println("Wazzaiiupppp! Jaour'On !");
         } catch(Exception e) {
             e.printStackTrace();
         }
+
         try {
             connection.close();
             System.out.println("The connection is closed.");
-
         } catch (SQLException eq) {
             System.err.println(eq);
         } 
@@ -258,9 +257,21 @@ Finally. When calling risky methods they have to be surrounded with try-catch bl
 
 <br>
 <br>
+ 
+<!-- 🐬 🐋 🐠 🐳 --> 
+Below the whole 🐬 🐋 Java file. 
 
-...
-<!--The whole 🐬 🐋 file 🐠..  🐳... --> 
+Before running the program a few steps has to be taken in the IDE. In turn, create a New Project > (skip creating a main class, as the method already exists in the java file)  > Name the project: `JavaToDatabaseConnect.java`. 
+
+The new project starts in the IDE. Create a new package (or subfolder, depending on IDE) named `Connection` within the `Source Packages` (or src-folder).
+
+And right-click Libraries folder > Add JAR/Folder... > to import `derby.jar` (it resides default in the current JDK, that also the IDE uses).
+
+In IntelliJ the `derby.jar` is imported by choosing: File Menu | Project Structure... > Modules > Dependencies > + > "JARs or Directories..." > `derby.jar`.
+
+
+<!-- That's all 🐠 🐳...  mysql embedded -->
+
 
 ``` javascript 
 package Connections;
