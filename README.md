@@ -269,7 +269,7 @@ Create a new package (or subfolder, depending on IDE) named `Connection`, within
 
 In IntelliJ the `derby.jar` is imported by choosing: File Menu | Project Structure... > Modules > Dependencies > + > "JARs or Directories..." > `derby.jar`.
 
-That's it! 🐠 The next blog post 🐳 will walk through two other connection types.
+And that's it. 🐠 The next blog post 🐳 will walk through two other connection types.
 
 
 ``` javascript 
