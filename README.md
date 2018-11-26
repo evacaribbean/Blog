@@ -186,7 +186,7 @@ import java.sql.SQLException;
 public class JavaToDatabaseConnect {
     
     public static void main(String[] args) {
-        System.out.println("A embedded Derby example. The program compiles.");
+        System.out.println("An embedded Derby example. The program compiles.");
         
         Connection connection = null; 
         //String driver = "org.apache.derby.jdbc.EmbeddedDriver";  
