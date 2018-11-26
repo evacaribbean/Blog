@@ -193,7 +193,9 @@ import java.sql.SQLException;
 <br>
 <br>
 
-Next. Without a main method, no program (in nearly all cases). This program's  main method resides in one file. `JavaToDatabaseConnect.java`. The first statement will be a println-message (it's always nice to check that the code compiles properly).  
+Next. Without a main method, no program (in nearly all cases). This program's  main method resides in one file. `JavaToDatabaseConnect.java`. The first statement will be a println-message (it's always nice to check that the code compiles properly). 
+
+<br> 
 
 ``` javascript
 public class JavaToDatabaseConnect {
@@ -209,7 +211,9 @@ public class JavaToDatabaseConnect {
 <br>
 <br>
 
-...and then the four statements that handle the connection variables and their assigned values.    
+...and then the four statements that handle the connection variables and their assigned values.  
+
+<br>  
 
 ``` javascript 
         ...      
@@ -230,6 +234,8 @@ Here the getConnection method gets the `url`, `user` and `password`, assisted by
 
 (in older Java versions it would have been necessary to also register the driver, by using `Class.forName()` or `DriverManager.registerDriver()`). 
 
+<br>
+
 ``` javascript 
         ...
         try { 
@@ -242,6 +248,8 @@ Here the getConnection method gets the `url`, `user` and `password`, assisted by
 <br>
 
 Finally. When calling risky methods they have to be surrounded with try-catch blocks (the IDE will give suggestions on try-catch blocks and also throws clauses). As the Java code can be allright, even without an ok connection.
+
+<br>
 
 ``` javascript 
         ...
