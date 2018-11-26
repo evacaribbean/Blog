@@ -189,6 +189,7 @@ import java.sql.SQLException;
 ...  
 ```
 <br>
+<br>
 
 Next. Without a main method, no program (in nearly all cases). This program's  main method resides in one file. `JavaToDatabaseConnect.java`. The first statement will be a println-message (it's always nice to check that the code compiles properly).  
 
