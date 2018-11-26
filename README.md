@@ -159,7 +159,8 @@ Good notes - Since JDBC 4.0 (which is included in Java SE 6 and forward) there's
 ...  <!-- Connection with an embedded Derby JDBC driver -->
 
 <br>
-``` javascript 
+
+``` javascript
         ...
         Connection conn = null;         
         //String driver = "org.apache.derby.jdbc.EmbeddedDriver";  
@@ -172,7 +173,7 @@ Good notes - Since JDBC 4.0 (which is included in Java SE 6 and forward) there's
         } catch (Exception e) {
             e.printStackTrace();
         }
-        ... 
+        ...
 ```
 
 
