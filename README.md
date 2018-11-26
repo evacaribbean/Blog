@@ -143,7 +143,12 @@ The application’s single coding part that has to be added is the two event han
 
 ## Different Database Connections 
 
-In the [previous](https://github.com/evacaribbean/Blog#a-database-connected) blog post a Java DB (Derby) *Network* JDBC driver was used to connect to an Apache's Derby database. Below the *Embedded* Derby JDBC driver will be used to connect to the same database as in the previous blog post. And the second connection will show how to connect to a MySQL database, using a network JDBC driver.
+In [previous](https://github.com/evacaribbean/Blog#a-database-connected) blog post a Java DB (Derby) *network* JDBC driver was used to connect to an Apache's Derby database. Below an *embedded* Derby JDBC driver will be used to connect to the same database. And last, a connection showing how to connect a MySQL database, using a network JDBC driver.
+
+<br>
+<br>
+
+### great support
 
 The JDBC API (Java Database Connectiviy, Application Programming Interface) is a Java API that was designed to make the everyday db-administation easy. Three common programming tasks that JDBC API gives great support in are: 1) to connect to a database 2) to update, send, and retrieve data 3) to ask queries and analyse data. 
 
@@ -151,7 +156,7 @@ Especially data that's stored in a relational db.
 
 <br>
 
-Good notes - Since JDBC 4.0 (which is included in Java SE 6 and forward) there's no need to register the driver, as JDBC driver manager detects and loads the driver [automatically](https://docs.oracle.com/javase/8/docs/api/java/sql/package-summary.html).   
+> Since JDBC 4.0 (which is included in Java SE 6 and forward) there's no need to register the driver, as JDBC driver manager detects and loads the driver [automatically](https://docs.oracle.com/javase/8/docs/api/java/sql/package-summary.html).   
 
 <br>
 <br>
@@ -162,12 +167,10 @@ Good notes - Since JDBC 4.0 (which is included in Java SE 6 and forward) there's
 
 ``` javascript
         ...
-        Connection conn = null;         
-        //String driver = "org.apache.derby.jdbc.EmbeddedDriver";  
-        String url = "jdbc:derby:aData"; 
+        Connection conn = null;        
+        String url = "jdbc:derby:Ocean"; 
      
-        try {
-            //Class.forName(driver); //.newInstance();  
+        try {  
             conn = DriverManager.getConnection(url);
             System.out.println("Wazzaiiupppp! Jaour'On !");
         } catch (Exception e) {
