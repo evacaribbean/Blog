@@ -274,13 +274,13 @@ Finally. When calling risky methods they have to be surrounded with try-catch bl
  
 Below the whole 🐬 🐋 Java file. 
 
-Before running the program a few steps has to be taken in the IDE. In turn, create a New Project &nbsp; &nbsp;>  (skip creating a main class, as the method already exists in the java file)  >  Name the project: `JavaToDatabaseConnect.java`. 
+Before running the program a few steps has to be taken in the IDE. In turn, create a New Project &nbsp; &nbsp;> &nbsp; &nbsp; (skip creating a main class, as the method already exists in the java file) &nbsp; &nbsp;> &nbsp; &nbsp;Name the project: `JavaToDatabaseConnect.java`. 
 
 The new project opens in the IDE. 
 
-Create a new package (or subfolder, depending on IDE) named `Connection`, within the `Source Packages` (or src-folder)  >  right-click Libraries folder  >  Add JAR/Folder...  >  to import `derby.jar` (it resides default in the current JDK, that also the IDE uses). 
+Create a new package (or subfolder, depending on IDE) named `Connection`, within the `Source Packages` (or src-folder) &nbsp; &nbsp;> &nbsp; &nbsp;right-click Libraries folder &nbsp; &nbsp;> &nbsp; &nbsp;Add JAR/Folder... &nbsp; &nbsp;> &nbsp; &nbsp;to import `derby.jar` (it resides default in the current JDK, that also the IDE uses). 
 
-In IntelliJ the `derby.jar` is imported by choosing: File Menu | Project Structure...  >  Modules  >  Dependencies  >  +  >  "JARs or Directories..."  >  `derby.jar`.
+In IntelliJ the `derby.jar` is imported by choosing: File Menu | Project Structure... &nbsp; &nbsp;> &nbsp; &nbsp;Modules &nbsp; &nbsp;> &nbsp; &nbsp;Dependencies &nbsp; &nbsp;> &nbsp; &nbsp;+ &nbsp; &nbsp;> &nbsp; &nbsp;"JARs or Directories..." &nbsp; &nbsp;> &nbsp; &nbsp;`derby.jar`.
 
 <br>
 
