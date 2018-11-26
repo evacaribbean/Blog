@@ -284,7 +284,7 @@ In IntelliJ the `derby.jar` is imported by choosing: &nbsp;&nbsp;File Menu | Pro
 
 <br>
 
-And that's it. 🐠 The next blog post 🐳 will walk through two other connection types.
+And that's it. 🐠 The next blog post 🐳 will walk through on how to connect to MySQL and on how to use embedded drivers.
 
 <br>
 
