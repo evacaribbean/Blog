@@ -143,12 +143,12 @@ The application’s single coding part that has to be added is the two event han
 
 ## Different Database Connections 
 
-In [previous](https://github.com/evacaribbean/Blog#a-database-connected) blog post a Java DB (Derby) *network* JDBC driver was used to connect to an Apache's Derby database. Below is an *embedded* Derby JDBC driver used to connect to the same database. And thereafter a connection showing how to connect to a MySQL database, using a network JDBC driver.
+In the [previous](https://github.com/evacaribbean/Blog#a-database-connected) blog post a Java DB (Derby) *network* JDBC driver was used to connect to an Apache's Derby database. Below is an *embedded* Derby JDBC driver used to connect to the same database. And thereafter a connection showing how to connect to a MySQL database, using a network JDBC driver.
 
 <br>
 <br>
 
-### great support
+### support
 
 The JDBC API (Java Database Connectiviy, Application Programming Interface) is a Java API that was designed to make the everyday db-administation easy. Three common programming tasks that JDBC API gives great support in are: 1) to connect to a database 2) to update, send, and retrieve data 3) to ask queries and analyse data. 
 
@@ -186,7 +186,7 @@ import java.sql.SQLException;
 public class JavaToDatabaseConnect {
     
     public static void main(String[] args) {
-        System.out.println("A network Derby example. The program compiles.");
+        System.out.println("A embedded Derby example. The program compiles.");
         
         Connection connection = null; 
         //String driver = "org.apache.derby.jdbc.EmbeddedDriver";  
