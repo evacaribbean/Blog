@@ -271,6 +271,7 @@ In IntelliJ the `derby.jar` is imported by choosing: File Menu | Project Structu
 
 And that's it. 🐠 The next blog post 🐳 will walk through two other connection types.
 
+<br>
 
 ``` javascript 
 package Connections;
