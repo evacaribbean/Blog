@@ -44,7 +44,7 @@
 
 <br>
 
-[the index image](/images/blogindex.png)
+![the index image](/images/blogindex.png)
 
 <br>
 <br>
@@ -241,7 +241,7 @@ public class JavaToDatabaseConnect {
 
 ### using the network driver to connect to an MySQL database
 
-This connection uses the `jdbc:mysql://`-driver to connect. Notice the string url and its extra parameter specifications. These have to be added, if the connection gives `errors` when running.    
+This connection uses the `jdbc:mysql://`-driver instead. Notice the string url and its extra parameter specifications. These have to be added, if the connection gives `errors` when running.    
 
 <br>
 
@@ -257,11 +257,7 @@ This connection uses the `jdbc:mysql://`-driver to connect. Notice the string ur
         ...
 ```
 
-<br>
-
-The code altogether.
-
-<br>
+<br> 
 
 ``` javascript 
 package Connections;
