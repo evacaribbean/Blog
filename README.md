@@ -21,6 +21,7 @@
 - [A Module App Word Caser with Swing](https://github.com/evacaribbean/Blog#a-module-app-word-caser-with-swing)
 - [CRUD 2](https://github.com/evacaribbean/Blog#)
 - [CRUD 1](https://github.com/evacaribbean/Blog#)
+- [Closing Connections](https://github.com/evacaribbean/Blog#closing-connections)
 - [Different Database Connections](https://github.com/evacaribbean/Blog#different-database-connections)
 - [A Database Connected](https://github.com/evacaribbean/Blog#a-database-connected)
 
@@ -43,7 +44,7 @@
 
 <br>
 
-<!-- ![the index image](/images/blogindex.png) -->
+[the index image](/images/blogindex.png)
 
 <br>
 <br>
@@ -129,8 +130,29 @@ The application’s single coding part that has to be added is the two event han
 <br>
 
 ## CRUD 1
+...
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+## Closing Connections
 
 ...
+
+<!-- ``` javascript
+        try {
+            connection.close();
+            System.out.println("The connection is closed.");
+        } catch (SQLException eq) {
+            System.err.println(eq);
+        }
+``` -->
 
 <br>
 <br>
@@ -143,14 +165,14 @@ The application’s single coding part that has to be added is the two event han
 
 ## Different Database Connections 
 
-In the [previous](https://github.com/evacaribbean/Blog#a-database-connected) blog post a Java DB (Derby) *network* JDBC driver was used to connect to an Apache's Derby database. Below is an *embedded* Derby JDBC driver used to connect to the same database. And thereafter a connection showing how to connect to a MySQL database, using a network JDBC driver.
+In the [previous](https://github.com/evacaribbean/Blog#a-database-connected) blog post a Java DB (Derby) *network* JDBC driver was used to connect to an Apache's Derby database. Below is an *embedded* Derby JDBC driver used to connect to the same database. Thereafter, a connection showing how to connect to a MySQL database (using a network JDBC driver).
 
 <br>
 <br>
 
 ### support
 
-The JDBC API (Java Database Connectiviy, Application Programming Interface) is a Java API that was designed to make the everyday db-administation easy. Three common programming tasks that JDBC API gives great support in are: 1) to connect to a database 2) to update, send, and retrieve data 3) to ask queries and analyse data. 
+The JDBC API (Java Database Connectiviy, Application Programming Interface) is a Java API that was designed to make the everyday database administation easy. Three common programming tasks that JDBC API gives great support in are: 1) to connect to a database 2) to update, send, and retrieve data 3) to ask queries and analyse data. 
 
 Especially data that's stored in a relational db.
 
@@ -163,7 +185,7 @@ Especially data that's stored in a relational db.
 
 ### using the embedded driver to connect
 
-First just the url statement, that is the only statement that differs. Next the whole code file with added driver statements toggled (if earlier versions are in use).
+First. Just the url statement (that's the only statement that differs). Next the whole code file with added driver statements toggled (if earlier versions are in use).
 
 <br>
 
@@ -219,8 +241,72 @@ public class JavaToDatabaseConnect {
 
 ### using the network driver to connect to an MySQL database
 
-...
+This connection uses the `jdbc:mysql://`-driver to connect. Notice the string url and its extra parameter specifications. These have to be added, if the connection gives `errors` when running.    
 
+<br>
+
+``` javascript
+        ...        
+        String url = "jdbc:mysql://localhost:3306/ToOcean"; 
+            + "?useUnicode=true"
+            + "&useJDBCCompliantTimezoneShift=true"
+            + "&useLegacyDatetimeCode=false"
+            + "&serverTimezone=UTC"
+            + "&autoReconnect=true"
+            + "&useSSL=false";  
+        ...
+```
+
+<br>
+
+The code altogether.
+
+<br>
+
+``` javascript 
+package Connections;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException; 
+
+public class JavaToDatabaseConnect {
+
+    private static final String user = "a-user";
+    private static final String password = "a-password"; 
+    private static final String url = "jdbc:mysql://localhost:3306/ToOcean"
+            + "?useUnicode=true"
+            + "&useJDBCCompliantTimezoneShift=true"
+            + "&useLegacyDatetimeCode=false"
+            + "&serverTimezone=UTC"
+            + "&autoReconnect=true"
+            + "&useSSL=false"; 
+
+    public static void main(String[] args) {
+    	System.out.println("A MySql db example. The program compiles.");
+
+        Connection conn = null;
+
+        try {
+            conn = DriverManager.getConnection(url, user, password);
+            System.out.println("You are connected to the MySQL database.");
+        } catch (SQLException e) {
+            System.err.println(e);  
+        }
+
+        try {
+            connection.close();
+            System.out.println("The connection is closed.");
+        } catch (SQLException eq) {
+            System.err.println(eq);
+        }
+    }
+}
+```
+
+<br>
+
+...
 
 <br>
 <br>
@@ -288,7 +374,7 @@ public class JavaToDatabaseConnect {
 <br>
 <br>
 
-...and then the four statements that handle the connection variables and their assigned values.  
+...and the four statements that handle the connection variables and their assigned values.  
 
 <br>  
 
