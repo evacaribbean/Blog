@@ -234,7 +234,7 @@ public class JavaToDatabaseConnect {
 
 <br>
 
-...
+IDE comments ...
 
 <br>
 <br>
@@ -302,7 +302,7 @@ public class JavaToDatabaseConnect {
 
 <br>
 
-...
+IDE comments ...
 
 <br>
 <br>
