@@ -146,10 +146,10 @@ The application’s single coding part that has to be added is the two event han
 
 ## Closing Connections
 
-... - Don't shut Derby down
-If you look at the SimpleApp.java code you'll notice that it only shuts Derby down if it's running in embedded mode.
+... <!-- - Don't shut Derby down
+If you look at research notice that it only shuts Derby down if it's running in embedded mode.
 
-<!-- ``` javascript
+``` javascript
         try {
             connection.close();
             System.out.println("The connection is closed.");
