@@ -205,8 +205,9 @@ First. Just the url statement (that's the only statement that differs). Next the
 
 <br>
 
-OBS - om db inte redan finns måste att attribute och value läggas till ;create=true;
+... ;create=true ...
 
+<!-- OBS - om db inte redan finns måste att attribute och value läggas till -->
 
 
 ``` javascript 
