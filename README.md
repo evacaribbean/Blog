@@ -146,10 +146,10 @@ The application’s single coding part that has to be added is the two event han
 
 ## Closing Connections
 
-... 
+...  
 
-<!-- - Don't shut Derby down
-If you look at research notice that it only shuts Derby down if it's running in embedded mode.
+only close down Derby db if it's running in embedded mode.
+ 
 
 ``` javascript
         try {
@@ -158,7 +158,9 @@ If you look at research notice that it only shuts Derby down if it's running in 
         } catch (SQLException eq) {
             System.err.println(eq);
         }
-``` -->
+``` 
+
+...
 
 <br>
 <br>
