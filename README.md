@@ -19,6 +19,9 @@
 
 - [A Do Re Mi Fa Sol La App](https://github.com/evacaribbean/Blog#a-do-re-mi-fa-sol-la-app)
 - [A Module App Word Caser with Swing](https://github.com/evacaribbean/Blog#a-module-app-word-caser-with-swing)
+
+<br>
+
 - [CRUD 2](https://github.com/evacaribbean/Blog#)
 - [CRUD 1](https://github.com/evacaribbean/Blog#)
 - [Closing Connections](https://github.com/evacaribbean/Blog#closing-connections)
@@ -143,7 +146,8 @@ The application’s single coding part that has to be added is the two event han
 
 ## Closing Connections
 
-...
+... - Don't shut Derby down
+If you look at the SimpleApp.java code you'll notice that it only shuts Derby down if it's running in embedded mode.
 
 <!-- ``` javascript
         try {
@@ -196,6 +200,10 @@ First. Just the url statement (that's the only statement that differs). Next the
 ```
 
 <br>
+
+OBS - om db inte redan finns måste att attribute och value läggas till ;create=true;
+
+
 
 ``` javascript 
 package Connections;
