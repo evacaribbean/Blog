@@ -148,7 +148,9 @@ The application’s single coding part that has to be added is the two event han
 
 ...  
 
-only close down Derby db if it's running in embedded mode.
+...only close down Derby database if it's running in embedded mode. While the this database is an integrated part of the application it's running in (only one user using the app). Unlike an application running in a network.
+
+...
  
 
 ``` javascript
